@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'react-native'
+import { Image,StyleSheet } from 'react-native'
 import {Container, Content, Button, Text, Left} from 'native-base'
 import Logo from './Logo'
 
@@ -15,17 +15,30 @@ class  Welcome extends Component {
           <Left>
             <Logo></Logo>
           </Left>
-          <Left>
-         <Image style={{ height: 400, flex: 1 }} source={image.img} />
+          <Left style={{ marginBottom: 10 }}>
+         <Image style={styles.img} source={image.img} />
          </Left>
-          <Text style={{ color: 'white' }}>Ini Halaman Welcome</Text>
+         <Left
+         style={{marginBottom:10}}>
+          <Text style={styles.welcome}>Ini Halaman Welcome</Text>
+          </Left>
           <Left>
-            <Button warning rounded onPress={ () => this.props.navigation.navigate('SnapSim')}><Text> Warning </Text></Button>
+            <Button success bordered onPress={ () => this.props.navigation.navigate('SnapSim')}><Text> Drive </Text></Button>
           </Left>
         </Content>
       </Container>
     );
   }
 }
+
+const styles = StyleSheet.create({
+  img : {
+    height: 400,
+    flex: 1
+  },
+  welcome : {
+    color: '#fff',
+  }
+})
 
 export default Welcome;

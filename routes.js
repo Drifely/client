@@ -5,6 +5,7 @@ import GetInfo from './components/GetInfo'
 import Form from './components/Form'
 import Tutorial from './components/SampleTutorial'
 import PrimaryScreen from './components/PrimaryScreen'
+import Signup from './components/SignupForm'
 
 export const HomeStack = StackNavigator ({
   Welcome: {
@@ -14,7 +15,7 @@ export const HomeStack = StackNavigator ({
     screen: GetInfo
   },
   Form: {
-    screen: Form
+    screen: Signup
   },
   Tutorial: {
     screen: Tutorial

@@ -1,17 +1,213 @@
-import React, { Component } from 'react';
 import {Container, Content, Button, Text} from 'native-base'
+import ImageResizer from 'react-native-image-resizer'
+import React from 'react'
+import axios from 'axios'
+import { Image,CameraRoll, StatusBar, StyleSheet, TouchableOpacity, View } from 'react-native';
+import Camera from 'react-native-camera';
 
-class SnapSim extends Component {
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+  preview: {
+    flex: 1,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+  },
+  overlay: {
+    position: 'absolute',
+    padding: 16,
+    right: 0,
+    left: 0,
+    alignItems: 'center',
+  },
+  topOverlay: {
+    top: 0,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  bottomOverlay: {
+    bottom: 0,
+    backgroundColor: 'rgba(0,0,0,0.4)',
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  captureButton: {
+    padding: 15,
+    backgroundColor: 'white',
+    borderRadius: 40,
+  },
+  typeButton: {
+    padding: 5,
+  },
+  flashButton: {
+    padding: 5,
+  },
+  buttonsSpace: {
+    width: 10,
+  },
+});
+
+export default class SnapSim extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.camera = null;
+
+    this.state = {
+      camera: {
+        aspect: Camera.constants.Aspect.fill,
+        captureTarget: Camera.constants.CaptureTarget.cameraRoll,
+        type: Camera.constants.Type.back,
+        orientation: Camera.constants.Orientation.auto,
+        flashMode: Camera.constants.FlashMode.auto,
+      },
+      isRecording: false,
+    };
+  }
+
+  takePicture = async () => {
+    if (this.camera) {
+       await this.camera.capture()
+        .then(data => (
+          // console.log('ini datta', data)
+          CameraRoll.getPhotos({first: 1}).then((photos) => {
+            console.log('masuk', photos)
+            ImageResizer.createResizedImage(photos.edges[0].node.image.uri,1080,720,'JPEG',100)
+             .then((img) => {
+               console.log('ini img', img)
+               img.type = 'image/jpeg';
+               const config = { headers: { 'Content-Type': 'multipart/form-data' } };
+               const formData = new FormData()
+               formData.append('image', img)
+               console.log('ini form data', formData)
+               axios.post('http://192.168.43.200:3000/users/simbio', formData, config)
+                 .then(response => {
+                   console.log('ini response ', response)
+                   this.props.navigation.navigate('Form')
+                 })
+                 .catch(err => {
+                   console.log(err.response, 'ini dari beken')
+                 })
+             } )
+          })
+        )
+      )
+    }
+  };
+
+
+  switchType = () => {
+    let newType;
+    const { back, front } = Camera.constants.Type;
+
+    if (this.state.camera.type === back) {
+      newType = front;
+    } else if (this.state.camera.type === front) {
+      newType = back;
+    }
+
+    this.setState({
+      camera: {
+        ...this.state.camera,
+        type: newType,
+      },
+    });
+  };
+
+  get typeIcon() {
+    let icon;
+    const { back, front } = Camera.constants.Type;
+
+    if (this.state.camera.type === back) {
+      icon = require('../assets/ic_camera_rear_white.png');
+    } else if (this.state.camera.type === front) {
+      icon = require('../assets/ic_camera_front_white.png');
+    }
+
+    return icon;
+  }
+
+  switchFlash = () => {
+    let newFlashMode;
+    const { auto, on, off } = Camera.constants.FlashMode;
+
+    if (this.state.camera.flashMode === auto) {
+      newFlashMode = on;
+    } else if (this.state.camera.flashMode === on) {
+      newFlashMode = off;
+    } else if (this.state.camera.flashMode === off) {
+      newFlashMode = auto;
+    }
+
+    this.setState({
+      camera: {
+        ...this.state.camera,
+        flashMode: newFlashMode,
+      },
+    });
+  };
+
+  get flashIcon() {
+    let icon;
+    const { auto, on, off } = Camera.constants.FlashMode;
+
+    if (this.state.camera.flashMode === auto) {
+      icon = require('../assets/ic_flash_auto_white.png');
+    } else if (this.state.camera.flashMode === on) {
+      icon = require('../assets/ic_flash_on_white.png');
+    } else if (this.state.camera.flashMode === off) {
+      icon = require('../assets/ic_flash_off_white.png');
+    }
+
+    return icon;
+  }
+
   render() {
     return (
-      <Container style={{ backgroundColor: '#494E6B' }}>
-        <Content>
-          <Text style={{ color: 'white' }}>Ini Halaman Foto Sim</Text>
-            <Button warning rounded onPress={ () => this.props.navigation.navigate('Form')}><Text> Warning </Text></Button>
-        </Content>
-      </Container>
+      <View style={styles.container}>
+        <StatusBar animated hidden />
+        <Camera
+          ref={cam => {
+            this.camera = cam;
+          }}
+          style={styles.preview}
+          aspect={this.state.camera.aspect}
+          captureTarget={this.state.camera.captureTarget}
+          type={this.state.camera.type}
+          flashMode={this.state.camera.flashMode}
+          onFocusChanged={() => { }}
+          onZoomChanged={() => { }}
+          defaultTouchToFocus
+          mirrorImage={false}
+          cropToPreview={false}
+          permissionDialogTitle="Sample title"
+          permissionDialogMessage="Sample dialog message"
+        />
+        <View style={[styles.overlay, styles.topOverlay]}>
+          <TouchableOpacity style={styles.typeButton} onPress={this.switchType}>
+            <Image source={this.typeIcon} />
+          </TouchableOpacity>
+          <TouchableOpacity style={styles.flashButton} onPress={this.switchFlash}>
+            <Image source={this.flashIcon} />
+          </TouchableOpacity>
+        </View>
+        <View style={[styles.overlay, styles.bottomOverlay]}>
+          {(!this.state.isRecording && (
+            <TouchableOpacity style={styles.captureButton} onPress={this.takePicture}>
+              <Image source={require('../assets/ic_photo_camera_36pt.png')} />
+            </TouchableOpacity>
+          )) ||
+            null}
+          <View style={styles.buttonsSpace} />
+        </View>
+      </View>
     );
   }
 }
 
-export default SnapSim ;
+
