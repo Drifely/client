@@ -1,0 +1,76 @@
+import React, { Component } from 'react';
+import { connect } from 'react-redux'
+import { Linking } from 'react-native'
+import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text } from 'native-base';
+import BgGeo from './BackgroundGeo'
+
+
+class Primary extends Component {
+  constructor () {
+    super () 
+    this.state = {
+      showSpeed: false,
+      showNavigation: false
+    }
+  }
+  warnLocation = () => {
+    console.warn('masuk sini niii');
+    console.warn(this.props.location);
+    Linking.canOpenURL(`https://www.google.com/maps/search/${this.props.location.latitude}, ${this.props.location.longitude}`)
+    .then(supported => {
+      if (!supported) {
+        console.warn('not supported');
+      } else {
+        return Linking.openURL(`https://www.google.com/maps/search/${this.props.location.latitude}, ${this.props.location.longitude}`)
+      }
+    })
+    .catch(err => {
+      console.warn(err);
+    })
+  }
+  render() {
+    return (
+      <Container>
+        <Header />
+        <Content>
+          {this.state.showNavigation ? <BgGeo></BgGeo> : null}
+        </Content>
+        <Footer>
+          <FooterTab>
+            <Button vertical
+              onPress={() => this.setState({showNavigation:true})}>
+              <Icon active name="navigate" />
+              <Text>Location</Text>
+            </Button>
+            <Button vertical
+              onPress = {this.warnLocation}
+              >
+              <Icon active name="navigate" />
+              <Text>Emergency</Text>
+            </Button>
+            <Button vertical active>
+              <Icon active name="navigate" />
+              <Text>Navigate</Text>
+            </Button>
+            <Button vertical
+              onPress={() => this.setState({showSpeed:true})}>
+              <Icon active name="navigate" />
+              <Text>ini apa ya? lupa</Text>
+            </Button>
+          </FooterTab>
+        </Footer>
+      </Container>
+    );
+  }
+}
+
+
+
+const mapStateToProps = state => {
+  return {
+    location: state.locationReducer
+  }
+}
+
+
+export default connect(mapStateToProps)(Primary);
