@@ -32,7 +32,7 @@ type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <HomeStack></HomeStack>
+      <BgGeo></BgGeo>
     );
   }
 }

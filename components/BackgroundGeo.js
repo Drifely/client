@@ -10,7 +10,9 @@ class BgGeo extends Component {
         longitude: null,
         speed: null,
         time: null,
-        stationary: false
+        stationary: false,
+        prevLat: null,
+        prevLong: null
       }
     
   }
@@ -25,8 +27,8 @@ class BgGeo extends Component {
         startOnBoot: false,
         stopOnTerminate: false,
         locationProvider: BackgroundGeolocation.ACTIVITY_PROVIDER,
-        interval: 1000,
-        fastestInterval: 1000,
+        interval: 5000,
+        fastestInterval: 5000,
         activitiesInterval: 10000,
         stopOnStillActivity: false,
       });
@@ -38,7 +40,8 @@ class BgGeo extends Component {
         this.setState({
           latitude: location.latitude,
           longitude: location.longitude,
-          speed: location.speed
+          speed: location.speed,
+          time: location.time
         })
         // console.warn(location)
         BackgroundGeolocation.startTask(taskKey => {
@@ -63,6 +66,7 @@ class BgGeo extends Component {
 
       BackgroundGeolocation.on('start', () => {
         console.warn('[INFO] BackgroundGeolocation service has been started');
+  
       });
 
       BackgroundGeolocation.on('stop', () => {
