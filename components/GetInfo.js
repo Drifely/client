@@ -3,8 +3,10 @@ import ImageResizer from 'react-native-image-resizer'
 import React from 'react'
 import axios from 'axios'
 import { Image,CameraRoll, StatusBar, StyleSheet, TouchableOpacity, View } from 'react-native';
-import Camera from 'react-native-camera';
-
+import Camera from 'react-native-camera'
+import { connect } from 'react-redux'
+import { bindActionCreators } from 'redux'
+import { actionSignup } from '../store/actions/signupAction'
 
 const styles = StyleSheet.create({
   container: {
@@ -52,7 +54,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default class SnapSim extends React.Component {
+class SnapSim extends React.Component {
   constructor(props) {
     super(props);
 
@@ -71,32 +73,10 @@ export default class SnapSim extends React.Component {
   }
 
   takePicture = async () => {
-    if (this.camera) {
-       await this.camera.capture()
-        .then(data => (
-          // console.log('ini datta', data)
-          CameraRoll.getPhotos({first: 1}).then((photos) => {
-            console.log('masuk', photos)
-            ImageResizer.createResizedImage(photos.edges[0].node.image.uri,1080,720,'JPEG',100)
-             .then((img) => {
-               console.log('ini img', img)
-               img.type = 'image/jpeg';
-               const config = { headers: { 'Content-Type': 'multipart/form-data' } };
-               const formData = new FormData()
-               formData.append('image', img)
-               console.log('ini form data', formData)
-               axios.post('http://192.168.43.200:3000/users/simbio', formData, config)
-                 .then(response => {
-                   console.log('ini response ', response)
-                   this.props.navigation.navigate('Form')
-                 })
-                 .catch(err => {
-                   console.log(err.response, 'ini dari beken')
-                 })
-             } )
-          })
-        )
-      )
+    console.log('hahah', this.props)
+    if(this.camera) {
+      await this.camera.capture()
+      this.props.actionSignup(this.props.navigation)
     }
   };
 
@@ -209,5 +189,11 @@ export default class SnapSim extends React.Component {
     );
   }
 }
+
+const mapDispatchToProps = dispatch => bindActionCreators({
+  actionSignup
+},dispatch)
+
+export default connect(null, mapDispatchToProps)(SnapSim)
 
 

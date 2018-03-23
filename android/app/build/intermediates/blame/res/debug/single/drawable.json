@@ -12,16 +12,16 @@
         "source": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
-        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+        "merged": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
@@ -56,12 +56,12 @@
         "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
         "merged": "/home/angga/Desktop/Hacktiv8/phase3/letsGo/android/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
         "source": "/home/angga/Desktop/Hacktiv8/phase3/letsGo/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",

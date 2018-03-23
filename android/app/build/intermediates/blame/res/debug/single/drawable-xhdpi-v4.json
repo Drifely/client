@@ -24,12 +24,12 @@
         "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/res/drawable-xhdpi-v4/googleg_disabled_color_18.png"
     },
     {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
-    },
-    {
         "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/notification_bg_normal.9.png",
         "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.0.4/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
