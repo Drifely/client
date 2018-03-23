@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'react-native'
+import { NavigationActions } from 'react-navigation'
 import { Container, Header, View, DeckSwiper,Button, Card, CardItem, Thumbnail, Text, Left, Body, Icon } from 'native-base';
 import Logo from './Logo'
 
@@ -25,6 +26,14 @@ const cards = [
 ];
 
 class Welcome extends Component {
+  goToMainScreen () {
+    console.warn('masuk margin');
+    const goTo = NavigationActions.reset({
+      index: 0,
+      actions: [NavigationActions.navigate({routeName:'Primary'})]
+    })
+    this.props.navigation.dispatch(goTo);
+  }
   render() {
     return (
       <Container>
@@ -53,7 +62,7 @@ class Welcome extends Component {
                      <Text 
                        style={{ color: 'white' }}
                        note>NativeBase</Text>
-                     {item.next ? <Button warning><Text> Warning </Text></Button> : null}
+                     {item.next ? <Button warning onPress = { () => {this.goToMainScreen()}}><Text> Warning </Text></Button> : null}
                    </Left>
                    </View>
                  </CardItem>

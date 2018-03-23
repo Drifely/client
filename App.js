@@ -20,6 +20,9 @@ import BgGeo from './components/BackgroundGeo'
 import Gyro from './components/gyro'
 import SampleTutorial from './components/SampleTutorial'
 import {HomeStack} from './routes'
+import Primary from './components/PrimaryScreen'
+import { Provider } from 'react-redux'
+import store from './store/index.js'
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' +
@@ -29,10 +32,12 @@ const instructions = Platform.select({
 });
 
 type Props = {};
-export default class App extends Component<Props> {
+export default class App extends Component {
   render() {
     return (
+      <Provider store = { store }>
       <HomeStack></HomeStack>
+      </Provider>
     );
   }
 }

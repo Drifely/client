@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Alert, View, Text, Button, Linking } from 'react-native'
 import BackgroundGeolocation from 'react-native-mauron85-background-geolocation'
+import { bindActionCreators } from 'redux'
+import { connect } from 'react-redux'
+import { SET_LOCATION } from '../store/actions/locatorAction'
 
 class BgGeo extends Component {
   constructor () {
@@ -10,10 +13,19 @@ class BgGeo extends Component {
         longitude: null,
         speed: null,
         time: null,
-        stationary: false
+        stationary: false,
       }
     
   }
+  
+  kecepatan = (speed) => {
+    if(speed * 3.6 >= 1) {
+      return speed
+    } else {
+      return 0
+    }
+  }
+  
   componentDidMount () {
     BackgroundGeolocation.configure({
         desiredAccuracy: 10,
@@ -25,21 +37,21 @@ class BgGeo extends Component {
         startOnBoot: false,
         stopOnTerminate: false,
         locationProvider: BackgroundGeolocation.ACTIVITY_PROVIDER,
-        interval: 1000,
-        fastestInterval: 1000,
+        interval: 5000,
+        fastestInterval: 5000,
         activitiesInterval: 10000,
         stopOnStillActivity: false,
       });
 
       BackgroundGeolocation.on('location', (location) => {
-        // handle your locations here
-        // to perform long running operation on iOS
-        // you need to create background task
+        this.props.SET_LOCATION(location)
         this.setState({
           latitude: location.latitude,
           longitude: location.longitude,
-          speed: location.speed
+          speed: this.kecepatan(location.speed)
         })
+        
+        
         // console.warn(location)
         BackgroundGeolocation.startTask(taskKey => {
           // execute long running task
@@ -63,6 +75,7 @@ class BgGeo extends Component {
 
       BackgroundGeolocation.on('start', () => {
         console.warn('[INFO] BackgroundGeolocation service has been started');
+  
       });
 
       BackgroundGeolocation.on('stop', () => {
@@ -150,4 +163,8 @@ class BgGeo extends Component {
   }
 }
 
-export default BgGeo;
+const mapDispatchToProps = dispatch => bindActionCreators({
+  SET_LOCATION
+},dispatch)
+
+export default connect(null, mapDispatchToProps)(BgGeo);
