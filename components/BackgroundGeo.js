@@ -37,7 +37,7 @@ class BgGeo extends Component {
         startOnBoot: false,
         stopOnTerminate: false,
         locationProvider: BackgroundGeolocation.ACTIVITY_PROVIDER,
-        interval: 5000,
+        interval: 100,
         fastestInterval: 5000,
         activitiesInterval: 10000,
         stopOnStillActivity: false,
