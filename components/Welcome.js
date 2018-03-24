@@ -20,7 +20,7 @@ class  Welcome extends Component {
          </Left>
          <Left
          style={{marginBottom:10}}>
-          <Text style={styles.welcome}>Ini Halaman Wecome</Text>
+          <Text style={styles.welcome}>Ini Halaman Welcome</Text>
           </Left>
           <Left>
             <Button success bordered onPress={ () => this.props.navigation.navigate('SnapSim')}><Text> Drive </Text></Button>
