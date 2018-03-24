@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Image,StyleSheet } from 'react-native'
-import {Container, Content, Button, Text, Left} from 'native-base'
+import { Image,StyleSheet, AsyncStorage} from 'react-native'
+import {Container, Content, Button, Text, Left } from 'native-base'
 import Logo from './Logo'
 
 const image = {
@@ -8,6 +8,14 @@ const image = {
 }
 
 class  Welcome extends Component {
+  componentWillMount() {
+    AsyncStorage.getItem('token')
+      .then(data => {
+        if (data) {
+          this.props.navigation.navigate('Tutorial')
+        }
+      })
+  }
   render() {
     return (
       <Container style={{ backgroundColor: '#494E6B' }}>
