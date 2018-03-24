@@ -36,6 +36,11 @@ export default function signupReducer (state = signup, action) {
 					...action.payload
 				}
 			}
+		case 'INVALID_SIM':
+			return {
+				...state,
+				loading: false
+			}
 		default:
 			return state
 	}
