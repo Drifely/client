@@ -144,10 +144,10 @@ class BgGeo extends Component {
       })
   }
   
-  componentWillUnmount() {
-  // unregister all event listeners
-  BackgroundGeolocation.events.forEach(event => BackgroundGeolocation.removeAllListeners(event));
-  }
+  // componentWillUnmount() {
+  // // unregister all event listeners
+  // BackgroundGeolocation.events.forEach(event => BackgroundGeolocation.removeAllListeners(event));
+  // }
   render() {
     return (
       <View>
