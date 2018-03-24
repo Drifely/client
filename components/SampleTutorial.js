@@ -27,7 +27,6 @@ const cards = [
 
 class Welcome extends Component {
   goToMainScreen () {
-    console.warn('masuk margin');
     const goTo = NavigationActions.reset({
       index: 0,
       actions: [NavigationActions.navigate({routeName:'Primary'})]
@@ -45,24 +44,12 @@ class Welcome extends Component {
                  <CardItem cardBody style={{ backgroundColor: '#494E6B' }}>
                    <Image style={{ height: 400, flex: 1 }} source={item.image} />
                  </CardItem>
-                
-                 <CardItem
-                   style={{ backgroundColor: '#494E6B' }}>
-                   <Left>
-                   <Icon name="heart" style={{ color: 'white' }} />
-                   <Text style={{ color: 'white' }}>{item.name}</Text>
-                   </Left>
-                 </CardItem>
                  <CardItem cardBody style={{ backgroundColor: '#494E6B' }}>
-                   <View style={{ height: 300, flex: 1, backgroundColor: '#494E6B' }}>
+                   <View style={{ height: 300, flex: 1, backgroundColor: '#494E6B', justifyContent:'center', alignItems:'center' }}>
                      <Left>
                      <Text style={{ color: 'white' }}>{item.text}</Text>
                      <Logo></Logo>
-
-                     <Text 
-                       style={{ color: 'white' }}
-                       note>NativeBase</Text>
-                     {item.next ? <Button warning onPress = { () => {this.goToMainScreen()}}><Text> Warning </Text></Button> : null}
+                     {item.next ? <Button success bordered onPress = { () => {this.goToMainScreen()}}><Text> Let's Ride </Text></Button> : null}
                    </Left>
                    </View>
                  </CardItem>

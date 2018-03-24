@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { Linking } from 'react-native'
-import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text } from 'native-base';
+import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text, View } from 'native-base';
 import BgGeo from './BackgroundGeo'
-
+import Gyro from './gyro'
 
 class Primary extends Component {
   constructor () {
@@ -33,7 +33,9 @@ class Primary extends Component {
       <Container>
         <Header />
         <Content>
-          {this.state.showNavigation ? <BgGeo></BgGeo> : null}
+          <BgGeo></BgGeo>
+          {/* {this.state.showNavigation ? <BgGeo></BgGeo> : null}
+          <Gyro></Gyro> */}
         </Content>
         <Footer>
           <FooterTab>
