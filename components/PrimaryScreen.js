@@ -37,7 +37,7 @@ class Primary extends Component {
           {/* <BgGeo></BgGeo> */}
           <Gyro />
           <AwGeo />
-          {/* {this.state.showNavigation ? <BgGeo></BgGeo> : null}
+    {/* {this.state.showNavigation ? <BgGeo></BgGeo> : null}
           <Gyro></Gyro> */}
         </Content>
         <Footer>
