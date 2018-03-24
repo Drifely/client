@@ -1,14 +1,30 @@
-import {Container, Content, Button, Text} from 'native-base'
+import {
+    Container, 
+    Content,
+    Button,
+    Spinner} from 'native-base'
 import ImageResizer from 'react-native-image-resizer'
 import React from 'react'
 import axios from 'axios'
-import { Image,CameraRoll, StatusBar, StyleSheet, TouchableOpacity, View } from 'react-native';
+import { 
+    Image,
+    CameraRoll,
+    StatusBar,
+    StyleSheet,
+    TouchableOpacity,
+    View,
+    Text,} from 'react-native';
 import Camera from 'react-native-camera'
 import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import { actionSignup } from '../store/actions/signupAction'
 
 const styles = StyleSheet.create({
+  loading: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   container: {
     flex: 1,
   },
@@ -55,6 +71,9 @@ const styles = StyleSheet.create({
 });
 
 class SnapSim extends React.Component {
+  componentDidMount() {
+    console.log(this.props.loading)
+  }
   constructor(props) {
     super(props);
 
@@ -148,52 +167,61 @@ class SnapSim extends React.Component {
   }
 
   render() {
-    return (
-      <View style={styles.container}>
-        <StatusBar animated hidden />
-        <Camera
-          ref={cam => {
-            this.camera = cam;
-          }}
-          style={styles.preview}
-          aspect={this.state.camera.aspect}
-          captureTarget={this.state.camera.captureTarget}
-          type={this.state.camera.type}
-          flashMode={this.state.camera.flashMode}
-          onFocusChanged={() => { }}
-          onZoomChanged={() => { }}
-          defaultTouchToFocus
-          mirrorImage={false}
-          cropToPreview={false}
-          permissionDialogTitle="Sample title"
-          permissionDialogMessage="Sample dialog message"
-        />
-        <View style={[styles.overlay, styles.topOverlay]}>
-          <TouchableOpacity style={styles.typeButton} onPress={this.switchType}>
-            <Image source={this.typeIcon} />
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.flashButton} onPress={this.switchFlash}>
-            <Image source={this.flashIcon} />
-          </TouchableOpacity>
-        </View>
-        <View style={[styles.overlay, styles.bottomOverlay]}>
-          {(!this.state.isRecording && (
-            <TouchableOpacity style={styles.captureButton} onPress={this.takePicture}>
-              <Image source={require('../assets/ic_photo_camera_36pt.png')} />
+    if(this.props.loading) {
+      return (<View style={styles.loading}><Spinner color='blue'/></View>)
+    } else if(!this.props.loading){
+      return (
+        <View style={styles.container}>
+          <StatusBar animated hidden />
+          <Camera
+            ref={cam => {
+              this.camera = cam;
+            }}
+            style={styles.preview}
+            aspect={this.state.camera.aspect}
+            captureTarget={this.state.camera.captureTarget}
+            type={this.state.camera.type}
+            flashMode={this.state.camera.flashMode}
+            onFocusChanged={() => { }}
+            onZoomChanged={() => { }}
+            defaultTouchToFocus
+            mirrorImage={false}
+            cropToPreview={false}
+            permissionDialogTitle="Sample title"
+            permissionDialogMessage="Sample dialog message"
+          />
+          <View style={[styles.overlay, styles.topOverlay]}>
+            <TouchableOpacity style={styles.typeButton} onPress={this.switchType}>
+              <Image source={this.typeIcon} />
             </TouchableOpacity>
-          )) ||
-            null}
-          <View style={styles.buttonsSpace} />
+            <TouchableOpacity style={styles.flashButton} onPress={this.switchFlash}>
+              <Image source={this.flashIcon} />
+            </TouchableOpacity>
+          </View>
+          <View style={[styles.overlay, styles.bottomOverlay]}>
+            {(!this.state.isRecording && (
+              <TouchableOpacity style={styles.captureButton} onPress={this.takePicture}>
+                <Image source={require('../assets/ic_photo_camera_36pt.png')} />
+              </TouchableOpacity>
+            )) ||
+              null}
+            <View style={styles.buttonsSpace} />
+          </View>
         </View>
-      </View>
-    );
+      );
+    }
   }
 }
+
 
 const mapDispatchToProps = dispatch => bindActionCreators({
   actionSignup
 },dispatch)
 
-export default connect(null, mapDispatchToProps)(SnapSim)
+const mapStateToProps = state => ({
+  loading: state.signupReducer.loading
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(SnapSim)
 
 

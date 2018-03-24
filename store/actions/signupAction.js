@@ -15,9 +15,28 @@ function signupLoaded (payload) {
 	}
 }
 
+function errorLoad () {
+	return {
+		type: 'ERROR_LOADED'
+	}
+}
+
+function editform(payload) {
+	return {
+		type: 'EDIT_FORM',
+		payload: payload
+	}
+}
+
+export function editSignup (payload) {
+	return dispatch => {
+		dispatch(editform(payload))
+	}
+}
+
 export function actionSignup (navigation) {
 	return dispatch => {
-		dispatch(singupLoading)
+		dispatch(singupLoading())
 		console.log('haha masuk ini')
 		CameraRoll.getPhotos({ first: 1 }).then((photos) => {
 			console.log('masuk', photos)
@@ -31,14 +50,16 @@ export function actionSignup (navigation) {
 					console.log('ini form data', formData)
 					axios.post('http://192.168.43.200:3000/users/simbio', formData, config)
 						.then(response => {
-							if (!response.data.exist) {
+							console.log(response.data,'ini response')
+							if (!response.data.exist && response.data.sim) {
+								 console.log('ini masuk ga ya?')
 								dispatch(signupLoaded(response.data))
 								navigation.navigate('Form')
 							}
-							console.log('ini response', response)
+							// console.log('ini response', response)
 						})
 						.catch(err => {
-							console.log(err.response, 'ini dari beken')
+							console.log(err)
 						})
 				})
 		})

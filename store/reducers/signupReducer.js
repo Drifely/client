@@ -14,6 +14,7 @@ let signup = {
 export default function signupReducer (state = signup, action) {
 	switch (action.type) {
 		case 'SIGNUP_LOADING':
+			console.log('ini jalan loading')
 			return {
 				...state,
 				loading: true
@@ -21,8 +22,17 @@ export default function signupReducer (state = signup, action) {
 			case 'SIGNUP_LOADED':
 			return {
 				...state,
-				loading:false,
+				loading: false,
 				form:{
+					...state.form,
+					...action.payload
+				}
+			}
+			case 'EDIT_FORM': 
+			return {
+				...state,
+				form: {
+					...state.form,
 					...action.payload
 				}
 			}
