@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { Linking } from 'react-native'
 import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text, View } from 'native-base';
 import BgGeo from './BackgroundGeo'
+import AwGeo from './AwGeo'
 import Gyro from './gyro'
 
 class Primary extends Component {
@@ -33,7 +34,9 @@ class Primary extends Component {
       <Container>
         <Header />
         <Content>
-          <BgGeo></BgGeo>
+          {/* <BgGeo></BgGeo> */}
+          <Gyro />
+          <AwGeo />
           {/* {this.state.showNavigation ? <BgGeo></BgGeo> : null}
           <Gyro></Gyro> */}
         </Content>
