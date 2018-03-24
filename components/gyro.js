@@ -28,26 +28,23 @@ function warning(){
 	// Alert.alert('WARNING')
 	// console.log(SensorDisplay.state.count)
 }
+
 let zNow = 0 
 let count = 0
 
 handleUgal = (z) => {
-	if ( z > 2){
-		if(zNow > z) {
+	if ( z > 2 || z < -2){
+		// if(zNow > z) {
 			count++
-		}
+			console.log('check ugal in', count)
+		// }
 		setTimeout(() => {
-			if (count >=  5){
-				console.log('haha')
-				count = 0
-			} else {
-				count = 0 
-			}
+			count--
+			console.log('check ugal delete', count)
 		}, 5000)
-		console.log('ceking ugal', count)
 	}
-	console.log(z)
-	zNow = Math.abs(z)
+	console.log('ini z', z)
+	// zNow = Math.abs(z)
 
 }
 
