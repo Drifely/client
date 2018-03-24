@@ -28,11 +28,15 @@ function warning(){
 	// Alert.alert('WARNING')
 	// console.log(SensorDisplay.state.count)
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> eb3eb2af457768968291c7303cec80400ba62b4f
 let zNow = 0 
 let count = 0
 
 handleUgal = (z) => {
+<<<<<<< HEAD
 	if ( z > 2 || z < -2){
 		// if(zNow > z) {
 			count++
@@ -45,6 +49,24 @@ handleUgal = (z) => {
 	}
 	console.log('ini z', z)
 	// zNow = Math.abs(z)
+=======
+	if ( z > 2){
+		if(zNow > z) {
+			count++
+		}
+		setTimeout(() => {
+			if (count >=  5){
+				console.log('haha')
+				count = 0
+			} else {
+				count = 0 
+			}
+		}, 5000)
+		console.log('ceking ugal', count)
+	}
+	console.log(z)
+	zNow = Math.abs(z)
+>>>>>>> eb3eb2af457768968291c7303cec80400ba62b4f
 
 }
 
