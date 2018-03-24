@@ -1,4 +1,4 @@
-import { CameraRoll } from 'react-native'
+import { CameraRoll , AsyncStorage} from 'react-native'
 import ImageResizer from 'react-native-image-resizer'
 import axios from 'axios'
 
@@ -37,10 +37,12 @@ export function registerAction (form,navigation) {
 	return dispatch => {
 		dispatch(singupLoading())
 		console.log('ini form na', form)
-		axios.post('http://192.168.43.200:3000/users/reg', {
+		axios.post('http://drifely-s.wizawt.com/users/reg', {
 			...form
 		}).then(response => {
-			console.log('successs')
+			dispatch(invalidSim())
+			navigation.navigate('Tutorial')
+			AsyncStorage.setItem('token', '12345')
 		})
 		.catch(err => {console.log(err)})
 	}
@@ -72,20 +74,25 @@ export function actionSignup (navigation) {
 					const formData = new FormData()
 					formData.append('image', img)
 					console.log('ini form data', formData)
-					axios.post('http://192.168.43.200:3000/users/simbio', formData, config)
+					axios.post('http://drifely-s.wizawt.com/users/simbio', formData, config)
 						.then(response => {
 							console.log(response.data,'ini response')
 							if (!response.data.exist && response.data.sim) {
+								console.log(response.data.sim,'ini regis')
 								dispatch(signupLoaded(response.data))
 								navigation.navigate('Form')
-							} else if (!reponse.data.sim) {
-								console.log('sim invalid')
-								dispatch(invalidSim())
-								navigation.navigate('Invalid')
-							} else if(reponse.data.exist && response.data.sim) {
+								
+							} else if (response.data.exist) {
 								dispatch(invalidSim())
 								navigation.navigate('Tutorial')
+								AsyncStorage.setItem('token','12345')
+
 							}
+								else if (!response.data.sim) {
+								console.log('sim invalid', response.data.sim)
+								dispatch(invalidSim())
+								navigation.navigate('Invalid')
+							} 
 						})
 						.catch(err => {
 							console.log(err)

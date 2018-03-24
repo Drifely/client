@@ -13,7 +13,8 @@ import {
   Button,
   Alert,
   Linking,
-  ScrollView
+  ScrollView,
+  AsyncStorage
 } from 'react-native';
 import Xyz from './components/xyz'
 import BgGeo from './components/BackgroundGeo'
@@ -27,6 +28,7 @@ import store from './store/index.js'
 
 // type Props = {};
 export default class App extends Component {
+ 
   render() {
     return (
       <Provider store = { store }>
