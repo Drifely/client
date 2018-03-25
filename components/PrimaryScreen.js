@@ -6,7 +6,7 @@ import BgGeo from './BackgroundGeo'
 import AwGeo from './AwGeo'
 import Gyro from './gyro'
 import axios from 'axios'
-import MapView from 'react-native-maps'
+import MapView, { Marker } from 'react-native-maps'
 
 const styles = StyleSheet.create({
   container: {
@@ -74,10 +74,15 @@ class Primary extends Component {
               region={{
                 latitude: 37.78825,
                 longitude: -122.4324,
-                latitudeDelta: 0.015,
+                latitudeDelta: 0.020,
                 longitudeDelta: 0.0121,
               }}
               >
+                <Marker
+                  coordinate= {{latitude: 37.7883, longitude:-122.4324}}
+                  title= "Test"
+                  description= "Current Position" 
+                  />
             </MapView>
           </Container>
           <Gyro />
