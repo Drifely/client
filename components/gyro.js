@@ -7,6 +7,7 @@ import {
 	Button
 } from 'react-native';
 import RNSensors, { Gyroscope } from 'react-native-sensors';
+import axios from 'axios'
 
 // const accelerationObservable = new Accelerometer({
 // 	updateInterval: 100, // defaults to 100ms 
@@ -26,7 +27,25 @@ function SensorView(props) {
 
 function warning(){
 	Alert.alert('WARNING')
+	sendSMS()
 	// console.log(SensorDisplay.state.count)
+}
+
+sendSMS = () => {
+	const reqBody = {
+		api_key : '1ba88109',
+		api_secret : '6gxuZl4lPvowscIZ',
+		to : '6287877280598',
+		from: 'Drifely',
+		text: 'ati2 bang....pelan2 aja.....'
+	}
+	axios.post('https://rest.nexmo.com/sms/json', reqBody)
+	.then(response => {
+		console.warn(response.data);
+	})
+	.catch(err => {
+		console.warn(err);
+	})
 }
 
 let zNow = 0 
@@ -37,7 +56,10 @@ handleUgal = (z) => {
 		// if(zNow > z) {
 			count++
 			console.log('check ugal in', count)
-			if (count >= 10) Alert.alert('WARNING')
+			if (count >= 10){
+				warning()
+			}
+
 		// }
 		setTimeout(() => {
 			count--

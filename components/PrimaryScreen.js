@@ -5,6 +5,7 @@ import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text, View
 import BgGeo from './BackgroundGeo'
 import AwGeo from './AwGeo'
 import Gyro from './gyro'
+import axios from 'axios'
 
 class Primary extends Component {
   constructor () {
@@ -14,20 +15,39 @@ class Primary extends Component {
       showNavigation: false
     }
   }
-  warnLocation = () => {
-    console.warn('masuk sini niii');
-    console.warn(this.props.location);
-    Linking.canOpenURL(`https://www.google.com/maps/search/${this.props.location.latitude}, ${this.props.location.longitude}`)
-    .then(supported => {
-      if (!supported) {
-        console.warn('not supported');
-      } else {
-        return Linking.openURL(`https://www.google.com/maps/search/${this.props.location.latitude}, ${this.props.location.longitude}`)
-      }
+  
+  sendSMS = (data) => {
+    const reqBody = {
+      api_key : '1ba88109',
+      api_secret : '6gxuZl4lPvowscIZ',
+      to : '6287877280598',
+      from: 'Drifely',
+      text: 'ati2 bang....pelan2 aja.....'
+    }
+    axios.post('https://rest.nexmo.com/sms/json', reqBody)
+    .then(response => {
+      console.warn(response.data);
     })
     .catch(err => {
       console.warn(err);
     })
+  }
+  warnLocation = () => {
+    navigator.geolocation.getCurrentPosition((position) => {
+      Linking.canOpenURL(`https://www.google.com/maps/search/${position.coords.latitude}, ${position.coords.longitude}`)
+      .then(supported => {
+        if (!supported) {
+          console.warn('not supported');
+        } else {
+          this.sendSMS()
+          return Linking.openURL(`https://www.google.com/maps/search/${position.coords.latitude}, ${position.coords.longitude}`)
+        }
+      })
+      .catch(err => {
+        console.warn(err);
+      })
+    })
+    
   }
   render() {
     return (
@@ -39,8 +59,7 @@ class Primary extends Component {
         </Content>
         <Footer>
           <FooterTab>
-            <Button vertical
-              onPress={() => this.setState({showNavigation:true})}>
+            <Button vertical>
               <Icon active name="navigate" />
               <Text>Location</Text>
             </Button>

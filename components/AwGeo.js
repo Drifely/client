@@ -24,7 +24,7 @@ class awGeo extends Component {
         });
       },
       (error) => this.setState({ error: error.message }),
-      { enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 2 },
+      { enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 1 },
     );
 	}
 		// navigator.geolocation.watchPosition((data, err, options) => {
