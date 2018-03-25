@@ -13,6 +13,11 @@ class awGeo extends Component {
 	}
 
 	componentDidMount = () => {
+		navigator.geolocation.getCurrentPosition((position) => {
+			this.setState({
+				gloc: position
+			})
+		})
 		let options ={
 			distanceFilter: 2,
 			maximumAge: 3000
@@ -24,7 +29,7 @@ class awGeo extends Component {
         });
       },
       (error) => this.setState({ error: error.message }),
-      { enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 2 },
+      { enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 1 },
     );
 	}
 		// navigator.geolocation.watchPosition((data, err, options) => {
@@ -41,7 +46,7 @@ class awGeo extends Component {
 		return (
 			<View style={styles.container}>
 				<Text>{JSON.stringify(this.state.gloc)}</Text>
-				<Text> SPEED: {this.state.gloc.coords.speed}</Text>
+				<Text> SPEED: {Math.floor(this.state.gloc.coords.speed * 3.6)}</Text>
 			</View>
 		);
 	}
@@ -55,6 +60,10 @@ const styles = StyleSheet.create({
 		alignItems: 'center'
 	},
 });
+
+const mapDispatchToProps = dispatch => bindActionCreators({
+  SET_LOCATION
+},dispatch)
 
 //make this component available to the app
 export default awGeo;

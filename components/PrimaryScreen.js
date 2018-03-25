@@ -1,10 +1,25 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { Linking } from 'react-native'
+import { Linking, StyleSheet } from 'react-native'
 import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text, View } from 'native-base';
 import BgGeo from './BackgroundGeo'
 import AwGeo from './AwGeo'
 import Gyro from './gyro'
+import axios from 'axios'
+import MapView from 'react-native-maps'
+
+const styles = StyleSheet.create({
+  container: {
+    ...StyleSheet.absoluteFillObject,
+    height: 700,
+    width: 400,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+  },
+  map: {
+    ...StyleSheet.absoluteFillObject,
+  },
+});
 
 class Primary extends Component {
   constructor () {
@@ -14,41 +29,67 @@ class Primary extends Component {
       showNavigation: false
     }
   }
-  warnLocation = () => {
-    console.warn('masuk sini niii');
-    console.warn(this.props.location);
-    Linking.canOpenURL(`https://www.google.com/maps/search/${this.props.location.latitude}, ${this.props.location.longitude}`)
-    .then(supported => {
-      if (!supported) {
-        console.warn('not supported');
-      } else {
-        return Linking.openURL(`https://www.google.com/maps/search/${this.props.location.latitude}, ${this.props.location.longitude}`)
-      }
+  
+  sendSMS = (data) => {
+    const reqBody = {
+      api_key : '1ba88109',
+      api_secret : '6gxuZl4lPvowscIZ',
+      to : '6287877280598',
+      from: 'Drifely',
+      text: 'ati2 bang....pelan2 aja.....'
+    }
+    axios.post('https://rest.nexmo.com/sms/json', reqBody)
+    .then(response => {
+      console.warn(response.data);
     })
     .catch(err => {
       console.warn(err);
     })
   }
+  warnLocation = () => {
+    navigator.geolocation.getCurrentPosition((position) => {
+      Linking.canOpenURL(`https://www.google.com/maps/search/${position.coords.latitude}, ${position.coords.longitude}`)
+      .then(supported => {
+        if (!supported) {
+          console.warn('not supported');
+        } else {
+          // this.sendSMS()
+          return Linking.openURL(`https://www.google.com/maps/search/${position.coords.latitude}, ${position.coords.longitude}`)
+        }
+      })
+      .catch(err => {
+        console.warn(err);
+      })
+    })
+    
+  }
   render() {
     return (
       <Container>
         <Header />
-        <Content>
-          {/* <BgGeo></BgGeo> */}
-<<<<<<< HEAD
+
+          <Container style={styles.container}>
+            <MapView
+              style={styles.map}
+              region={{
+                latitude: 37.78825,
+                longitude: -122.4324,
+                latitudeDelta: 0.015,
+                longitudeDelta: 0.0121,
+              }}
+              >
+            </MapView>
+          </Container>
           <Gyro />
           <AwGeo />
-    {/* {this.state.showNavigation ? <BgGeo></BgGeo> : null}
-=======
-          <Gyro></Gyro>
-          {/* {this.state.showNavigation ? <BgGeo></BgGeo> : null}
->>>>>>> eb3eb2af457768968291c7303cec80400ba62b4f
-          <Gyro></Gyro> */}
-        </Content>
+        <Content />
+        
+
+
+
         <Footer>
           <FooterTab>
-            <Button vertical
-              onPress={() => this.setState({showNavigation:true})}>
+            <Button vertical>
               <Icon active name="navigate" />
               <Text>Location</Text>
             </Button>

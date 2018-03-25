@@ -4,6 +4,7 @@ import BackgroundGeolocation from 'react-native-mauron85-background-geolocation'
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import { SET_LOCATION } from '../store/actions/locatorAction'
+import axios from 'axios'
 
 class BgGeo extends Component {
   constructor () {
@@ -114,6 +115,7 @@ class BgGeo extends Component {
       // you can also just start without checking for status
       // BackgroundGeolocation.start();
   }
+  
   
   warnLocation = () => {
   // Linking.openURL(`

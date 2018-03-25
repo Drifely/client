@@ -7,6 +7,7 @@ import {
 	Button
 } from 'react-native';
 import RNSensors, { Gyroscope } from 'react-native-sensors';
+import axios from 'axios'
 
 // const accelerationObservable = new Accelerometer({
 // 	updateInterval: 100, // defaults to 100ms 
@@ -25,22 +26,40 @@ function SensorView(props) {
 }
 
 function warning(){
-	// Alert.alert('WARNING')
+	Alert.alert('WARNING')
+	// sendSMS()
 	// console.log(SensorDisplay.state.count)
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> eb3eb2af457768968291c7303cec80400ba62b4f
+sendSMS = () => {
+	const reqBody = {
+		api_key : '1ba88109',
+		api_secret : '6gxuZl4lPvowscIZ',
+		to : '6287877280598',
+		from: 'Drifely',
+		text: 'ati2 bang....pelan2 aja.....'
+	}
+	axios.post('https://rest.nexmo.com/sms/json', reqBody)
+	.then(response => {
+		console.warn(response.data);
+	})
+	.catch(err => {
+		console.warn(err);
+	})
+}
+
 let zNow = 0 
 let count = 0
 
 handleUgal = (z) => {
-<<<<<<< HEAD
 	if ( z > 2 || z < -2){
 		// if(zNow > z) {
 			count++
 			console.log('check ugal in', count)
+			if (count >= 10){
+				warning()
+			}
+
 		// }
 		setTimeout(() => {
 			count--
@@ -49,24 +68,6 @@ handleUgal = (z) => {
 	}
 	console.log('ini z', z)
 	// zNow = Math.abs(z)
-=======
-	if ( z > 2){
-		if(zNow > z) {
-			count++
-		}
-		setTimeout(() => {
-			if (count >=  5){
-				console.log('haha')
-				count = 0
-			} else {
-				count = 0 
-			}
-		}, 5000)
-		console.log('ceking ugal', count)
-	}
-	console.log(z)
-	zNow = Math.abs(z)
->>>>>>> eb3eb2af457768968291c7303cec80400ba62b4f
 
 }
 
@@ -80,7 +81,7 @@ const SensorDisplay = ({
 }) => {
 	return (
 		(z.toFixed(2) > 10 || z.toFixed(2) < -10 ) ? warning()	:null ,
-		<Text onChange={handleUgal(z)} style={styles.welcome}>{name}:  Z: {z.toFixed(2)}</Text>
+		<Text onChange={z > 2 ?  handleUgal(z) : null} style={styles.welcome}>{name}:  Z: {z.toFixed(2)}</Text>
 	)
 };
 
