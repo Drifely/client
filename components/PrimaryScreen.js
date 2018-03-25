@@ -8,18 +8,7 @@ import Gyro from './gyro'
 import axios from 'axios'
 import MapView, { Marker } from 'react-native-maps'
 
-const styles = StyleSheet.create({
-  container: {
-    ...StyleSheet.absoluteFillObject,
-    height: 700,
-    width: 400,
-    justifyContent: 'flex-end',
-    alignItems: 'center',
-  },
-  map: {
-    ...StyleSheet.absoluteFillObject,
-  },
-});
+
 
 class Primary extends Component {
   constructor () {
@@ -67,31 +56,9 @@ class Primary extends Component {
     return (
       <Container>
         <Header />
-
-          <Container style={styles.container}>
-            <MapView
-              style={styles.map}
-              region={{
-                latitude: 37.78825,
-                longitude: -122.4324,
-                latitudeDelta: 0.020,
-                longitudeDelta: 0.0121,
-              }}
-              >
-                <Marker
-                  coordinate= {{latitude: 37.7883, longitude:-122.4324}}
-                  title= "Test"
-                  description= "Current Position" 
-                  />
-            </MapView>
-          </Container>
           <Gyro />
           <AwGeo />
         <Content />
-        
-
-
-
         <Footer>
           <FooterTab>
             <Button vertical>
