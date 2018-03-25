@@ -1,11 +1,25 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { Linking } from 'react-native'
+import { Linking, StyleSheet } from 'react-native'
 import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text, View } from 'native-base';
 import BgGeo from './BackgroundGeo'
 import AwGeo from './AwGeo'
 import Gyro from './gyro'
 import axios from 'axios'
+import MapView from 'react-native-maps'
+
+const styles = StyleSheet.create({
+  container: {
+    ...StyleSheet.absoluteFillObject,
+    height: 700,
+    width: 400,
+    justifyContent: 'flex-end',
+    alignItems: 'center',
+  },
+  map: {
+    ...StyleSheet.absoluteFillObject,
+  },
+});
 
 class Primary extends Component {
   constructor () {
@@ -39,7 +53,7 @@ class Primary extends Component {
         if (!supported) {
           console.warn('not supported');
         } else {
-          this.sendSMS()
+          // this.sendSMS()
           return Linking.openURL(`https://www.google.com/maps/search/${position.coords.latitude}, ${position.coords.longitude}`)
         }
       })
@@ -53,10 +67,26 @@ class Primary extends Component {
     return (
       <Container>
         <Header />
-        <Content>
+
+          <Container style={styles.container}>
+            <MapView
+              style={styles.map}
+              region={{
+                latitude: 37.78825,
+                longitude: -122.4324,
+                latitudeDelta: 0.015,
+                longitudeDelta: 0.0121,
+              }}
+              >
+            </MapView>
+          </Container>
           <Gyro />
           <AwGeo />
-        </Content>
+        <Content />
+        
+
+
+
         <Footer>
           <FooterTab>
             <Button vertical>

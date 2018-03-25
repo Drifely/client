@@ -27,7 +27,7 @@ function SensorView(props) {
 
 function warning(){
 	Alert.alert('WARNING')
-	sendSMS()
+	// sendSMS()
 	// console.log(SensorDisplay.state.count)
 }
 

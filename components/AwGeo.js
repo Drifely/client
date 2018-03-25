@@ -13,6 +13,11 @@ class awGeo extends Component {
 	}
 
 	componentDidMount = () => {
+		navigator.geolocation.getCurrentPosition((position) => {
+			this.setState({
+				gloc: position
+			})
+		})
 		let options ={
 			distanceFilter: 2,
 			maximumAge: 3000
@@ -55,6 +60,10 @@ const styles = StyleSheet.create({
 		alignItems: 'center'
 	},
 });
+
+const mapDispatchToProps = dispatch => bindActionCreators({
+  SET_LOCATION
+},dispatch)
 
 //make this component available to the app
 export default awGeo;
