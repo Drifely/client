@@ -809,7 +809,6 @@ public final class R {
 		public static final int common_google_play_services_install_button = 0x7f070016;
 		public static final int common_google_play_services_install_text = 0x7f070017;
 		public static final int common_google_play_services_install_title = 0x7f070018;
-		public static final int common_google_play_services_notification_channel_name = 0x7f070019;
 		public static final int common_google_play_services_notification_ticker = 0x7f07001a;
 		public static final int common_google_play_services_unknown_issue = 0x7f07001b;
 		public static final int common_google_play_services_unsupported_text = 0x7f07001c;

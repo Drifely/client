@@ -24,7 +24,7 @@ class awGeo extends Component {
         });
       },
       (error) => this.setState({ error: error.message }),
-      { enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 2 },
+      { enableHighAccuracy: true, timeout: 10000, maximumAge: 1000, distanceFilter: 2 },
     );
 	}
 		// navigator.geolocation.watchPosition((data, err, options) => {
@@ -41,7 +41,7 @@ class awGeo extends Component {
 		return (
 			<View style={styles.container}>
 				<Text>{JSON.stringify(this.state.gloc)}</Text>
-				<Text> SPEED: {this.state.gloc.coords.speed}</Text>
+				<Text> SPEED: {Math.floor(this.state.gloc.coords.speed * 3.6)}</Text>
 			</View>
 		);
 	}

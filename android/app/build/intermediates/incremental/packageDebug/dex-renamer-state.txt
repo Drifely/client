@@ -1,4 +1,4 @@
-#Sat Mar 24 19:19:32 WIB 2018
-base.0=/Users/awtian/FINAL/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Sun Mar 25 14:39:13 WIB 2018
+base.0=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.0=/Users/awtian/FINAL/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
