@@ -25,7 +25,49 @@ function SensorView(props) {
 }
 
 function warning(){
-	Alert.alert('WARNING')
+	// Alert.alert('WARNING')
+	// console.log(SensorDisplay.state.count)
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> eb3eb2af457768968291c7303cec80400ba62b4f
+let zNow = 0 
+let count = 0
+
+handleUgal = (z) => {
+<<<<<<< HEAD
+	if ( z > 2 || z < -2){
+		// if(zNow > z) {
+			count++
+			console.log('check ugal in', count)
+		// }
+		setTimeout(() => {
+			count--
+			console.log('check ugal delete', count)
+		}, 5000)
+	}
+	console.log('ini z', z)
+	// zNow = Math.abs(z)
+=======
+	if ( z > 2){
+		if(zNow > z) {
+			count++
+		}
+		setTimeout(() => {
+			if (count >=  5){
+				console.log('haha')
+				count = 0
+			} else {
+				count = 0 
+			}
+		}, 5000)
+		console.log('ceking ugal', count)
+	}
+	console.log(z)
+	zNow = Math.abs(z)
+>>>>>>> eb3eb2af457768968291c7303cec80400ba62b4f
+
 }
 
 const SensorDisplay = ({
@@ -38,7 +80,7 @@ const SensorDisplay = ({
 }) => {
 	return (
 		(z.toFixed(2) > 10 || z.toFixed(2) < -10 ) ? warning()	:null ,
-		<Text style={styles.welcome}>{name}:  Z: {z.toFixed(2)}</Text>
+		<Text onChange={handleUgal(z)} style={styles.welcome}>{name}:  Z: {z.toFixed(2)}</Text>
 	)
 };
 
@@ -59,6 +101,7 @@ class SensorsDisplay extends Component {
 }
 
 export default class DecoratorExample extends Component {
+
 	render() {
 		return (
 			<View style={styles.container}>
