@@ -64,7 +64,7 @@ class awGeo extends Component {
 							/>
 				</MapView>
 				<View style={styles.containerSpeed}>
-					<Text>{JSON.stringify(this.state.gloc)}</Text>
+
 					<Text> SPEED: {Math.floor(this.state.gloc.coords.speed * 3.6)}</Text>
 				</View>
 			</Container>
