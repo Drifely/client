@@ -1,5 +1,9 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Mon Mar 26 12:03:05 WIB 2018
+=======
+#Sun Mar 25 20:46:05 WIB 2018
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 20.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 143.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 439.set=ANDROID_RESOURCE
@@ -29,7 +33,11 @@
 330.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
 43.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 166.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 60.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+=======
+60.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 217.set=ANDROID_RESOURCE
 192.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
 363.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_popup_menu_item_layout.xml
@@ -68,7 +76,11 @@
 301.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
 14.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 424.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 163.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_dark.xml
+=======
+163.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 40.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_content_include.xml
 379.set=NATIVE_RESOURCE
 317.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -101,7 +113,11 @@
 221.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 333.set=ANDROID_RESOURCE
 280.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_colored_material.xml
+<<<<<<< HEAD
 451.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+=======
+451.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 256.set=ANDROID_RESOURCE
 134.set=ANDROID_RESOURCE
 117.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -125,7 +141,11 @@
 474.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
 364.set=ANDROID_RESOURCE
 17.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 34.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+=======
+34.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 337.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
 287.set=ANDROID_RESOURCE
 199.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
@@ -139,7 +159,11 @@
 90.set=ANDROID_RESOURCE
 341.set=ANDROID_RESOURCE
 267.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 114.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+=======
+114.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 464.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_holo_light.xml
 264.set=ANDROID_RESOURCE
 24.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
@@ -157,7 +181,11 @@
 428.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 104.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
 137.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/jsr305_annotations/Jsr305_annotations.gwt.xml
+<<<<<<< HEAD
 487.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_disabled.xml
+=======
+487.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 308.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
 47.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
 372.set=ANDROID_RESOURCE
@@ -168,7 +196,11 @@
 3.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 231.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/xml/syncadapter.xml
 402.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+<<<<<<< HEAD
 264.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_media_cancel_action.xml
+=======
+264.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_view.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 418.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 471.set=ANDROID_RESOURCE
 297.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/notification_bg_low_normal.9.png
@@ -181,7 +213,11 @@
 195.set=ANDROID_RESOURCE
 391.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/catalyst_slide_up.xml
 254.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_background_transition_holo_light.xml
+<<<<<<< HEAD
 425.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+=======
+425.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 47.set=ANDROID_RESOURCE
 287.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/catalyst_slide_down.xml
 458.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
@@ -192,7 +228,11 @@
 380.set=ANDROID_RESOURCE
 381.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_search_view.xml
 24.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 0.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_exit.xml
+=======
+0.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/mipmap-hdpi-v4/ic_launcher.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 94.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 218.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
 415.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_slide_out_top.xml
@@ -218,7 +258,11 @@
 107.set=ANDROID_RESOURCE
 181.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_list_focused_holo.9.png
 335.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 352.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+=======
+352.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 180.set=ANDROID_RESOURCE
 197.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 91.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
@@ -232,7 +276,11 @@
 462.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 145.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 22.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 171.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+=======
+171.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_thumb_material.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 459.set=ANDROID_RESOURCE
 342.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
 55.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -277,7 +325,11 @@
 158.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 52.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_out.xml
 329.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 355.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+=======
+355.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 68.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 85.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png
 467.set=ANDROID_RESOURCE
@@ -318,7 +370,11 @@
 155.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/fps_view.xml
 299.set=ANDROID_RESOURCE
 309.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 326.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_dialog_material_background_dark.xml
+=======
+326.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 222.set=ANDROID_RESOURCE
 39.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 188.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/assets/debug/fonts/Zocial.ttf
@@ -342,7 +398,11 @@
 199.set=ANDROID_RESOURCE
 29.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 178.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+<<<<<<< HEAD
 349.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/googleg_disabled_color_18.png
+=======
+349.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 452.set=ANDROID_RESOURCE
 350.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 330.set=ANDROID_RESOURCE
@@ -356,7 +416,11 @@
 109.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 476.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png
 384.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 36.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
+=======
+36.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 19.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 28.set=ANDROID_RESOURCE
 339.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_button_bar_material.xml
@@ -375,19 +439,31 @@
 284.set=ANDROID_RESOURCE
 26.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libicu_common.so
 162.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 59.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+=======
+59.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 330.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 60.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 192.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 363.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 460.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 210.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+=======
+210.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_dark.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 59.set=ANDROID_RESOURCE
 396.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 243.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_list_menu_item_icon.xml
 261.set=ANDROID_RESOURCE
 259.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main
+<<<<<<< HEAD
 106.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+=======
+106.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 184.set=ANDROID_RESOURCE
 139.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/select_dialog_multichoice_material.xml
 140.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -402,7 +478,11 @@
 386.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 5.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 233.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libfb.so
+<<<<<<< HEAD
 404.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+=======
+404.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 266.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media_narrow.xml
 299.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
 129.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_tile_bg.xml
@@ -448,7 +528,11 @@
 314.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 21.set=ANDROID_RESOURCE
 176.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 70.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+=======
+70.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 347.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 227.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
 448.set=ANDROID_RESOURCE
@@ -458,7 +542,11 @@
 474.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 150.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
 249.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 321.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+=======
+321.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_icon_group.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 34.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 127.set=ANDROID_RESOURCE
 183.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/redbox_item_title.xml
@@ -482,7 +570,11 @@
 57.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 357.set=ANDROID_RESOURCE
 377.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/abc_screen_toolbar.xml
+<<<<<<< HEAD
 207.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/googleg_standard_color_18.png
+=======
+207.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 203.set=ANDROID_RESOURCE
 158.set=ANDROID_RESOURCE
 241.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -495,7 +587,11 @@
 31.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
 487.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 308.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 334.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_close_item_material.xml
+=======
+334.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_bar.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 47.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 257.set=ANDROID_RESOURCE
 196.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_text_cursor_material.xml
@@ -547,7 +643,11 @@
 143.set=ANDROID_RESOURCE
 0.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 188.set=ASSET
+<<<<<<< HEAD
 261.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_material.xml
+=======
+261.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launcher.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 432.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_view_list_nav_layout.xml
 415.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 441.set=ANDROID_RESOURCE
@@ -555,11 +655,19 @@
 277.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 448.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 396.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 124.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color/common_google_signin_btn_text_dark.xml
 157.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
 328.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
 242.set=ANDROID_RESOURCE
 67.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+=======
+124.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+157.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+328.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_dialog_material_background_dark.xml
+242.set=ANDROID_RESOURCE
+67.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 120.set=ANDROID_RESOURCE
 191.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main
 225.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -571,9 +679,15 @@
 455.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
 438.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 296.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 15.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_default_mtrl_shape.xml
 147.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
 318.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/catalyst_fade_in.xml
+=======
+15.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+147.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+318.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 472.set=ANDROID_RESOURCE
 181.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 352.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -586,7 +700,11 @@
 248.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 274.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_light.xml
 5.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 445.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_action_tombstone.xml
+=======
+445.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 196.set=ANDROID_RESOURCE
 478.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/surface_view.xml
 38.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_big_media_narrow.xml
@@ -616,7 +734,11 @@
 228.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main
 245.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
 281.set=NATIVE_RESOURCE
+<<<<<<< HEAD
 108.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_tab_indicator_material.xml
+=======
+108.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 18.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
 142.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 429.set=ANDROID_RESOURCE
@@ -633,7 +755,11 @@
 406.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
 108.set=ANDROID_RESOURCE
 181.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 268.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+=======
+268.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 406.set=ANDROID_RESOURCE
 33.set=ANDROID_RESOURCE
 132.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -645,7 +771,11 @@
 362.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines_media.xml
 75.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 395.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+<<<<<<< HEAD
 258.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+=======
+258.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_material.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 429.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
 87.set=ANDROID_RESOURCE
 338.set=ANDROID_RESOURCE
@@ -702,7 +832,11 @@
 72.set=ASSET
 220.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 323.set=NATIVE_RESOURCE
+<<<<<<< HEAD
 450.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+=======
+450.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 246.set=ANDROID_RESOURCE
 124.set=ANDROID_RESOURCE
 116.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -769,13 +903,21 @@
 103.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
 289.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 136.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_dark.xml
+<<<<<<< HEAD
 486.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+=======
+486.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 307.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
 484.set=ANDROID_RESOURCE
 46.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
 169.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_icon_light.xml
 362.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 79.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/select_dialog_singlechoice_material.xml
+=======
+79.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 80.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 285.set=ANDROID_RESOURCE
 383.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -783,7 +925,11 @@
 230.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
 2.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/assets/debug
 401.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/redbox_item_frame.xml
+<<<<<<< HEAD
 263.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_view.xml
+=======
+263.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_media_cancel_action.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 434.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
 417.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 461.set=ANDROID_RESOURCE
@@ -793,7 +939,11 @@
 159.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color/abc_secondary_text_material_dark.xml
 262.set=ASSET
 160.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 69.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+=======
+69.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 140.set=ANDROID_RESOURCE
 70.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 185.set=ANDROID_RESOURCE
@@ -801,7 +951,11 @@
 227.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 393.set=ANDROID_RESOURCE
 253.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+<<<<<<< HEAD
 424.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+=======
+424.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 37.set=ANDROID_RESOURCE
 286.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_fade_in.xml
 457.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
@@ -836,7 +990,11 @@
 471.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 219.set=ANDROID_RESOURCE
 31.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 180.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+=======
+180.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 334.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 351.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color/common_google_signin_btn_text_light.xml
 170.set=ANDROID_RESOURCE
@@ -846,12 +1004,20 @@
 214.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_bg_low.xml
 99.set=ANDROID_RESOURCE
 22.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 247.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/dev_loading_view.xml
+=======
+247.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 111.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 461.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 144.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 21.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 170.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_seekbar_thumb_material.xml
+=======
+170.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 449.set=ANDROID_RESOURCE
 341.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
 54.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -896,7 +1062,11 @@
 157.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 51.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
 328.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 354.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_big_media.xml
+=======
+354.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 67.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 84.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libfolly_json.so
 457.set=ANDROID_RESOURCE
@@ -915,7 +1085,11 @@
 302.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
 15.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 434.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 164.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+=======
+164.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_dark.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 147.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 41.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
 389.set=ANDROID_RESOURCE
@@ -972,7 +1146,11 @@
 475.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
 374.set=ANDROID_RESOURCE
 18.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 35.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+=======
+35.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 18.set=ANDROID_RESOURCE
 338.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
 297.set=ANDROID_RESOURCE
@@ -984,7 +1162,11 @@
 406.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 351.set=ANDROID_RESOURCE
 268.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 115.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+=======
+115.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 465.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
 274.set=ANDROID_RESOURCE
 25.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
@@ -1000,10 +1182,17 @@
 251.set=ANDROID_RESOURCE
 258.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 429.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 105.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_media.xml
 174.set=ANDROID_RESOURCE
 138.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
 488.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+=======
+105.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+174.set=ANDROID_RESOURCE
+138.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+488.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 48.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_item_background_holo_light.xml
 382.set=ANDROID_RESOURCE
 26.set=NATIVE_RESOURCE
@@ -1011,7 +1200,11 @@
 385.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 4.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 232.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+<<<<<<< HEAD
 403.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+=======
+403.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 265.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main/lib/x86/libjsc.so
 419.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 481.set=ANDROID_RESOURCE
@@ -1037,9 +1230,15 @@
 62.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 407.set=ANDROID_RESOURCE
 390.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 382.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
 34.set=ANDROID_RESOURCE
 1.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/mipmap-hdpi-v4/ic_launcher.png
+=======
+382.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+34.set=ANDROID_RESOURCE
+1.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_exit.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 95.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 219.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 416.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
@@ -1070,7 +1269,11 @@
 117.set=ANDROID_RESOURCE
 182.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
 336.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 353.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+=======
+353.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 190.set=ANDROID_RESOURCE
 198.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/assets/debug
 92.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_activity_chooser_view.xml
@@ -1093,7 +1296,11 @@
 347.set=ANDROID_RESOURCE
 359.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 376.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+<<<<<<< HEAD
 206.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+=======
+206.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/googleg_standard_color_18.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 89.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 239.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/assets/debug/fonts/Roboto.ttf
 148.set=ANDROID_RESOURCE
@@ -1104,10 +1311,17 @@
 73.set=ANDROID_RESOURCE
 324.set=ANDROID_RESOURCE
 136.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 30.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
 486.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 307.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 333.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_bar.xml
+=======
+30.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_lines_media.xml
+486.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+307.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+333.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_mode_close_item_material.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 169.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 46.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 247.set=ANDROID_RESOURCE
@@ -1135,7 +1349,11 @@
 102.set=JAVA_RESOURCE
 159.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 53.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+<<<<<<< HEAD
 356.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/notification_template_lines.xml
+=======
+356.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 69.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 86.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
 477.set=ANDROID_RESOURCE
@@ -1167,7 +1385,11 @@
 380.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 133.set=ANDROID_RESOURCE
 178.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 260.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launcher.png
+=======
+260.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_material.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 431.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
 414.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 431.set=ANDROID_RESOURCE
@@ -1175,12 +1397,20 @@
 276.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 447.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main
 386.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 123.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+=======
+123.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color/common_google_signin_btn_text_dark.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 156.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/notification_icon_background.xml
 327.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
 232.set=ANDROID_RESOURCE
 189.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+<<<<<<< HEAD
 66.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+=======
+66.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 110.set=ANDROID_RESOURCE
 190.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 99.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
@@ -1196,7 +1426,11 @@
 164.set=ANDROID_RESOURCE
 14.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
 317.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/xml/authenticator.xml
+<<<<<<< HEAD
 179.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+=======
+179.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 462.set=ANDROID_RESOURCE
 180.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 351.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -1208,7 +1442,11 @@
 141.set=ANDROID_RESOURCE
 247.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 273.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+<<<<<<< HEAD
 444.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+=======
+444.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_action_tombstone.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 186.set=ANDROID_RESOURCE
 477.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
 394.set=ANDROID_RESOURCE
@@ -1233,7 +1471,11 @@
 193.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 364.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 470.set=NATIVE_RESOURCE
+<<<<<<< HEAD
 211.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_dark.xml
+=======
+211.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 69.set=ANDROID_RESOURCE
 397.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 244.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/assets/debug/fonts/SimpleLineIcons.ttf
@@ -1255,7 +1497,11 @@
 6.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 405.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v14/texture_view.xml
 171.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 267.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+=======
+267.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 23.set=ANDROID_RESOURCE
 131.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 481.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -1266,7 +1512,11 @@
 74.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main
 394.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_disable_only_material_light.xml
 count=489
+<<<<<<< HEAD
 257.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_material.xml
+=======
+257.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 428.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
 77.set=ANDROID_RESOURCE
 328.set=ANDROID_RESOURCE
@@ -1279,7 +1529,11 @@ count=489
 187.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 81.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_borderless_material.xml
 427.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 384.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+=======
+384.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 54.set=ANDROID_RESOURCE
 305.set=ANDROID_RESOURCE
 3.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
@@ -1306,7 +1560,11 @@ count=489
 475.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 151.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar/META-INF/com.android.support_exifinterface.version
 259.set=NATIVE_RESOURCE
+<<<<<<< HEAD
 322.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_icon_group.xml
+=======
+322.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 35.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 137.set=JAVA_RESOURCE
 184.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
@@ -1377,13 +1635,21 @@ count=489
 288.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 459.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 135.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+<<<<<<< HEAD
 485.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_screen_simple.xml
+=======
+485.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/common_google_signin_btn_text_disabled.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 306.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
 474.set=ANDROID_RESOURCE
 45.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
 168.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/abc_alert_dialog_button_bar_material.xml
 352.set=ANDROID_RESOURCE
+<<<<<<< HEAD
 78.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+=======
+78.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/select_dialog_singlechoice_material.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 275.set=ANDROID_RESOURCE
 382.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 153.set=ANDROID_RESOURCE
@@ -1413,9 +1679,15 @@ count=489
 285.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v16/notification_template_custom_big.xml
 456.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
 439.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 16.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
 148.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
 319.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+=======
+16.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_default_mtrl_shape.xml
+148.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+319.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/anim/catalyst_fade_in.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 320.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 482.set=ANDROID_RESOURCE
 182.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
@@ -1450,11 +1722,19 @@ count=489
 119.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
 469.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v21/notification_template_custom_big.xml
 470.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/transforms/mergeJniLibs/debug/folders/2000/1f/main
+<<<<<<< HEAD
 29.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout-v17/notification_template_lines_media.xml
 209.set=ANDROID_RESOURCE
 30.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 333.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 350.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+=======
+29.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+209.set=ANDROID_RESOURCE
+30.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+333.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+350.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/googleg_disabled_color_18.png
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 195.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 366.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 213.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
@@ -1462,9 +1742,15 @@ count=489
 399.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 12.set=ANDROID_RESOURCE
 229.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
+<<<<<<< HEAD
 246.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
 291.set=ANDROID_RESOURCE
 109.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+=======
+246.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/layout/dev_loading_view.xml
+291.set=ANDROID_RESOURCE
+109.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_tab_indicator_material.xml
+>>>>>>> 0b4802947500ef19b6a350e1d7c63919c7fa0b10
 110.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 460.base=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_
 19.file=/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
