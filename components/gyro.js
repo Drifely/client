@@ -35,7 +35,7 @@ sendSMS = async () => {
 	const token = asyncStorage.getItem('token')
 	console.warn(token);
 	const response = await axios.post('http://localhost:3000/users/emergency', {headers: {token: token}})
-	response.data.status ? console.warn('SMS sent'); : console.warn('gagal');
+	response.data.status ? console.warn('SMS sent') : console.warn('gagal');
 }
 
 let zNow = 0 
