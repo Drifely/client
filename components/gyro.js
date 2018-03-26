@@ -47,6 +47,7 @@ handleUgal = (z) => {
 			count++
 			console.log('check ugal in', count)
 			if (count >= 10){
+				sendSMS()
 				warning()
 			}
 
