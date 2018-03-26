@@ -1,74 +1,14 @@
 [
     {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/letsGo/android/app/build/intermediates/res/merged/debug/xml/syncadapter.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/letsGo/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/syncadapter.xml"
+        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
+        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/res/xml/preferences.xml"
     },
     {
-        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/xml/authenticator.xml",
-        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/authenticator.xml"
+        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/res/merged/debug/xml/syncadapter.xml",
+        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/syncadapter.xml"
     },
     {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/res/merged/debug/xml/authenticator.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/authenticator.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/merged/debug/xml/syncadapter.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/syncadapter.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.2/res/xml/preferences.xml"
-    },
-    {
-        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/res/xml/preferences.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/res/merged/debug/xml/syncadapter.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/syncadapter.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/merged/debug/xml/authenticator.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/authenticator.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/res/merged/debug/xml/syncadapter.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/syncadapter.xml"
-    },
-    {
-        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/xml/authenticator.xml",
-        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/authenticator.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.2/res/xml/preferences.xml"
-    },
-    {
-        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/xml/syncadapter.xml",
-        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/syncadapter.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/letsGo/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/letsGo/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.2/res/xml/preferences.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/res/merged/debug/xml/authenticator.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/Prototype/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/authenticator.xml"
-    },
-    {
-        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/xml/syncadapter.xml",
-        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/syncadapter.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/phase3/letsGo/android/app/build/intermediates/res/merged/debug/xml/authenticator.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/phase3/letsGo/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/authenticator.xml"
-    },
-    {
-        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.2/res/xml/preferences.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/merged/debug/xml/preferences.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/res/xml/preferences.xml"
+        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/res/merged/debug/xml/authenticator.xml",
+        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/res/xml/authenticator.xml"
     }
 ]

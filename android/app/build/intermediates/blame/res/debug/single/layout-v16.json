@@ -1,14 +1,6 @@
 [
     {
-        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/client_jumat/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/home/angga/Desktop/Hacktiv8/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v16/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
-        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v16/notification_template_custom_big.xml"
+        "merged": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v16/notification_template_custom_big.xml"
     }
 ]

@@ -169,10 +169,10 @@ class SnapSim extends React.Component {
   render() {
     if(this.props.loading) {
       return (<View style={styles.loading}><Spinner color='blue'/></View>)
-    } else if(!this.props.loading){
+    } else {
       return (
         <View style={styles.container}>
-          <StatusBar animated hidden />
+          <StatusBar animated  />
           <Camera
             ref={cam => {
               this.camera = cam;

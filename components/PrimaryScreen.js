@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { Linking, StyleSheet } from 'react-native'
-import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text, View } from 'native-base';
+import { Linking, StyleSheet, AsyncStorage } from 'react-native'
+import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text, View, Left } from 'native-base';
 import BgGeo from './BackgroundGeo'
 import AwGeo from './AwGeo'
 import Gyro from './gyro'
@@ -52,33 +52,35 @@ class Primary extends Component {
     })
     
   }
+  logout = () => {
+    console.log('hahahahaha')
+    AsyncStorage.removeItem('token')
+    this.props.navigation.navigate('Welcome')
+  }
   render() {
     return (
       <Container>
-        <Header />
+        <Header>
+        </Header>
           <Gyro />
           <AwGeo />
         <Content />
         <Footer>
           <FooterTab>
             <Button vertical>
-              <Icon active name="navigate" />
-              <Text>Location</Text>
+              <Icon active name="warning" />
+              <Text>Emergency</Text>
             </Button>
             <Button vertical
               onPress = {this.warnLocation}
               >
               <Icon active name="navigate" />
-              <Text>Emergency</Text>
-            </Button>
-            <Button vertical active>
-              <Icon active name="navigate" />
-              <Text>Navigate</Text>
+              <Text>My-Loc !</Text>
             </Button>
             <Button vertical
-              onPress={() => this.setState({showSpeed:true})}>
-              <Icon active name="navigate" />
-              <Text>ini apa ya? lupa</Text>
+              onPress={() => this.logout()}>
+              <Icon active name="log-out" />
+              <Text>Log-out</Text>
             </Button>
           </FooterTab>
         </Footer>
