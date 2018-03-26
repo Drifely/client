@@ -8,11 +8,26 @@ import {
 } from 'react-native';
 import RNSensors, { Gyroscope } from 'react-native-sensors';
 import axios from 'axios'
+import { connect } from 'react-redux'
+import { SET_GYRO } from '../store/actions/locatorAction'
+import { bindActionCreators } from 'redux'
 
 // const accelerationObservable = new Accelerometer({
 // 	updateInterval: 100, // defaults to 100ms 
 // });
-
+let speed = 0
+let watchId = navigator.geolocation.watchPosition(
+	(position) => {
+		// this.props.SET_LOCATION(position.coords.speed)
+		// console.warn(position);
+		
+		speed = Math.round(position.coords.speed*3.6)
+		console.warn(speed);
+		
+	},
+	(error) => {console.warn(error)},
+	{ enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 1 },
+)
 
 function SensorView(props) {
 
@@ -25,29 +40,41 @@ function SensorView(props) {
 	)
 }
 
-function warning(){
-	Alert.alert('WARNING')
+function warning(z, speed){
+	if(speed >= 10) {
+		Alert.alert('WARNING')
+		console.warn('ini si z', z);
+		console.warn('ini speed', speed);
+	}
+
+	
 	// sendSMS()
 	// console.log(SensorDisplay.state.count)
 }
 
-sendSMS = async () => {
-	const token = asyncStorage.getItem('token')
+sendSMS = () => {
+	const token = AsyncStorage.getItem('token')
 	console.warn(token);
-	const response = await axios.post('http://localhost:3000/users/emergency', {headers: {token: token}})
-	response.data.status ? console.warn('SMS sent') : console.warn('gagal');
+	axios.post('http://localhost:3000/users/emergency', {headers: {token: token}})
+	.then(response => {
+		response.data.status ? console.warn('SMS sent') : console.warn('gagal');
+	})
+	.catch(err => {
+		console.warn(err);
+	})
 }
 
 let zNow = 0 
 let count = 0
 
-handleUgal = (z) => {
+handleUgal = (z, speed) => {
 	if ( z > 2 || z < -2){
 		// if(zNow > z) {
 			count++
-			console.log('check ugal in', count)
+			console.log('check ugal in', count, z)
 			if (count >= 10){
-				warning()
+				// console.log(z);
+				warning(z, speed)
 			}
 
 		// }
@@ -57,6 +84,7 @@ handleUgal = (z) => {
 		}, 5000)
 	}
 	console.log('ini z', z)
+
 	// zNow = Math.abs(z)
 
 }
@@ -70,8 +98,8 @@ const SensorDisplay = ({
 	name,
 }) => {
 	return (
-		(z.toFixed(2) > 10 || z.toFixed(2) < -10 ) ? warning()	:null ,
-		<Text onChange={z > 2 ?  handleUgal(z) : null} style={styles.welcome}>{name}:  Z: {z.toFixed(2)}</Text>
+		(z.toFixed(2) > 10 || z.toFixed(2) < -10 ) ? warning(z, speed)	:null ,
+		<Text onChange={z > 2 ?  handleUgal(z, speed) : null} style={styles.welcome}>{name}:  Z: {z.toFixed(2)}</Text>
 	)
 };
 
@@ -90,8 +118,7 @@ class SensorsDisplay extends Component {
 		);
 	}
 }
-
-export default class DecoratorExample extends Component {
+class DecoratorExample extends Component {
 
 	render() {
 		return (
@@ -120,3 +147,9 @@ const styles = StyleSheet.create({
 		marginBottom: 5,
 	},
 });
+
+const mapDispatchToProps = dispatch => bindActionCreators({
+	SET_GYRO
+},dispatch)
+
+export default connect(null,mapDispatchToProps)(DecoratorExample)
