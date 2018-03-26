@@ -3,6 +3,9 @@ import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import MapView, { Marker } from 'react-native-maps'
 import { Container } from 'native-base'
+import { connect } from 'react-redux'
+import { SET_LOCATION } from '../store/actions/locatorAction'
+import { bindActionCreators } from 'redux'
 
 // create a component
 class awGeo extends Component {
@@ -16,6 +19,7 @@ class awGeo extends Component {
 
 	componentDidMount = () => {
 		navigator.geolocation.getCurrentPosition((position) => {
+			// this.props.SET_LOCATION(position.coords.speed)
 			this.setState({
 				gloc: position
 			})
@@ -26,6 +30,9 @@ class awGeo extends Component {
 		}
 		this.watchId = navigator.geolocation.watchPosition(
       (position) => {
+				// this.props.SET_LOCATION(position.coords.speed)
+				console.warn(position);
+				
         this.setState({
 					gloc: position
         });
@@ -64,7 +71,7 @@ class awGeo extends Component {
 							/>
 				</MapView>
 				<View style={styles.containerSpeed}>
-					<Text>{JSON.stringify(this.state.gloc)}</Text>
+
 					<Text> SPEED: {Math.floor(this.state.gloc.coords.speed * 3.6)}</Text>
 				</View>
 			</Container>
@@ -96,4 +103,4 @@ const mapDispatchToProps = dispatch => bindActionCreators({
 },dispatch)
 
 //make this component available to the app
-export default awGeo;
+export default connect(null, mapDispatchToProps)(awGeo);
