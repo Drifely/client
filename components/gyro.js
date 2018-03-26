@@ -31,21 +31,11 @@ function warning(){
 	// console.log(SensorDisplay.state.count)
 }
 
-sendSMS = () => {
-	const reqBody = {
-		api_key : '1ba88109',
-		api_secret : '6gxuZl4lPvowscIZ',
-		to : '6287877280598',
-		from: 'Drifely',
-		text: 'ati2 bang....pelan2 aja.....'
-	}
-	axios.post('https://rest.nexmo.com/sms/json', reqBody)
-	.then(response => {
-		console.warn(response.data);
-	})
-	.catch(err => {
-		console.warn(err);
-	})
+sendSMS = async () => {
+	const token = asyncStorage.getItem('token')
+	console.warn(token);
+	const response = await axios.post('http://localhost:3000/users/emergency', {headers: {token: token}})
+	response.data.status ? console.warn('SMS sent'); : console.warn('gagal');
 }
 
 let zNow = 0 
