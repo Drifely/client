@@ -52,6 +52,8 @@
 		2E8EB8AB7DA741528B2164CE /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C5E90137BAF4B4A9F20B82D /* Zocial.ttf */; };
 		6306ADB9152842EBA10B8CB9 /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5FBF52D5014C53960CD3D9 /* libRNCamera.a */; };
 		D85BF6C1BB7C48A4B2CDE076 /* libRCTImageResizer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F02CE85175904BFAA78384A4 /* libRCTImageResizer.a */; };
+		8612A97176194162A6B93E30 /* libAirMaps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 317DF71CA95A4DE486D071AC /* libAirMaps.a */; };
+		F000B12F303E4CEBB0557B4E /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 32FBF3FE5CD144C18FB5E104 /* digital-7.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -321,6 +323,9 @@
 		7B5FBF52D5014C53960CD3D9 /* libRNCamera.a */ = {isa = PBXFileReference; name = "libRNCamera.a"; path = "libRNCamera.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
 		B059774808714851B4B7F1FA /* RCTImageResizer.xcodeproj */ = {isa = PBXFileReference; name = "RCTImageResizer.xcodeproj"; path = "../node_modules/react-native-image-resizer/ios/RCTImageResizer.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
 		F02CE85175904BFAA78384A4 /* libRCTImageResizer.a */ = {isa = PBXFileReference; name = "libRCTImageResizer.a"; path = "libRCTImageResizer.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		AC64527CD8B44840B127164F /* AirMaps.xcodeproj */ = {isa = PBXFileReference; name = "AirMaps.xcodeproj"; path = "../node_modules/react-native-maps/lib/ios/AirMaps.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
+		317DF71CA95A4DE486D071AC /* libAirMaps.a */ = {isa = PBXFileReference; name = "libAirMaps.a"; path = "libAirMaps.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		32FBF3FE5CD144C18FB5E104 /* digital-7.ttf */ = {isa = PBXFileReference; name = "digital-7.ttf"; path = "../assets/fonts/digital-7.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,6 +358,7 @@
 				AA8060498B1C498EA32CE583 /* libRCTBackgroundGeolocation.a in Frameworks */,
 				6306ADB9152842EBA10B8CB9 /* libRNCamera.a in Frameworks */,
 				D85BF6C1BB7C48A4B2CDE076 /* libRCTImageResizer.a in Frameworks */,
+				8612A97176194162A6B93E30 /* libAirMaps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +540,7 @@
 				B27DA2457DD4413E9539B3A2 /* RCTBackgroundGeolocation.xcodeproj */,
 				45E326DFE9584A2A8C0F4D06 /* RNCamera.xcodeproj */,
 				B059774808714851B4B7F1FA /* RCTImageResizer.xcodeproj */,
+				AC64527CD8B44840B127164F /* AirMaps.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -597,6 +604,7 @@
 				ACABDA5D4F8B4AE98D0243E9 /* rubicon-icon-font.ttf */,
 				97F76D110E34413CBB7C4490 /* SimpleLineIcons.ttf */,
 				6C5E90137BAF4B4A9F20B82D /* Zocial.ttf */,
+				32FBF3FE5CD144C18FB5E104 /* digital-7.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -1004,6 +1012,7 @@
 				2830219737A641E99A0AE00E /* rubicon-icon-font.ttf in Resources */,
 				1BA0A6646A7A455D977DB076 /* SimpleLineIcons.ttf in Resources */,
 				2E8EB8AB7DA741528B2164CE /* Zocial.ttf in Resources */,
+				F000B12F303E4CEBB0557B4E /* digital-7.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1137,8 +1146,6 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/letsGo.app/letsGo";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1146,6 +1153,7 @@
 					"$(SRCROOT)/../node_modules/react-native-mauron85-background-geolocation/ios/RCTBackgroundGeolocation/**",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
 			};
 			name = Debug;
@@ -1166,8 +1174,6 @@
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/letsGo.app/letsGo";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1175,6 +1181,7 @@
 					"$(SRCROOT)/../node_modules/react-native-mauron85-background-geolocation/ios/RCTBackgroundGeolocation/**",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
 			};
 			name = Release;
@@ -1200,6 +1207,7 @@
 					"$(SRCROOT)/../node_modules/react-native-mauron85-background-geolocation/ios/RCTBackgroundGeolocation/**",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
 			};
 			name = Debug;
@@ -1224,6 +1232,7 @@
 					"$(SRCROOT)/../node_modules/react-native-mauron85-background-geolocation/ios/RCTBackgroundGeolocation/**",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
 			};
 			name = Release;
@@ -1253,8 +1262,6 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1262,6 +1269,7 @@
 					"$(SRCROOT)/../node_modules/react-native-mauron85-background-geolocation/ios/RCTBackgroundGeolocation/**",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
 			};
 			name = Debug;
@@ -1291,8 +1299,6 @@
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1300,6 +1306,7 @@
 					"$(SRCROOT)/../node_modules/react-native-mauron85-background-geolocation/ios/RCTBackgroundGeolocation/**",
 					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
 					"$(SRCROOT)/../node_modules/react-native-image-resizer/ios/RCTImageResizer",
+					"$(SRCROOT)/../node_modules/react-native-maps/lib/ios/**",
 				);
 			};
 			name = Release;
@@ -1324,8 +1331,6 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Debug;
@@ -1350,8 +1355,6 @@
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 			};
 			name = Release;

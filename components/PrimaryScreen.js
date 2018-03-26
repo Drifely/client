@@ -62,9 +62,9 @@ class Primary extends Component {
       <Container>
         <Header>
         </Header>
-          <Gyro />
+          {/* <Gyro/> */}
           <AwGeo />
-        <Content />
+        {/* <Content /> */}
         <Footer>
           <FooterTab>
             <Button vertical>

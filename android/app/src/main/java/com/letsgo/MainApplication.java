@@ -3,6 +3,7 @@ package com.letsgo;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.airbnb.android.react.maps.MapsPackage;
 import fr.bamlab.rnimageresizer.ImageResizerPackage;
 import org.reactnative.camera.RNCameraPackage;
 import com.marianhello.bgloc.react.BackgroundGeolocationPackage;
@@ -11,7 +12,6 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
-import com.airbnb.android.react.maps.MapsPackage;
 
 import com.reactnativecomponent.splashscreen.RCTSplashScreenPackage;
 
@@ -31,7 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new ImageResizerPackage(),
+          new ImageResizerPackage(),
           new RCTSplashScreenPackage(),
           new RNCameraPackage(),
           new BackgroundGeolocationPackage(),
