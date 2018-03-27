@@ -6,6 +6,7 @@ import { Container } from 'native-base'
 import { connect } from 'react-redux'
 import { SET_LOCATION } from '../store/actions/locatorAction'
 import { bindActionCreators } from 'redux'
+import axios from 'axios'
 
 // create a component
 class awGeo extends Component {
@@ -16,6 +17,19 @@ class awGeo extends Component {
 			gloc : {coords: {speed: 0}}
 		}
 	}
+	
+	reverseGeo = (lat, long) => {
+		console.warn(lat, long);
+		let latString = lat.toString()
+		let longString = long.toString()
+		axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=AIzaSyBaiRZ-wS1HHnEWYrYRoSTJgD0HZxTK4Lg`)
+		  .then(response => {
+				console.warn(response.data.results[0].formatted_address);
+			})
+			.catch(err => {
+				console.warn('masuk sini ', err);
+			})
+	}
 
 	componentDidMount = () => {
 		console.log('ini jalan??')
@@ -24,7 +38,9 @@ class awGeo extends Component {
 			this.setState({
 				gloc: position
 			})
+			this.reverseGeo(position.coords.latitude, position.coords.longitude)
 		})
+		
 		let options ={
 			distanceFilter: 2,
 			maximumAge: 3000
@@ -33,7 +49,7 @@ class awGeo extends Component {
 		this.watchId = navigator.geolocation.watchPosition(
       (position) => {
 				// this.props.SET_LOCATION(position.coords.speed)
-				console.warn(position);
+				// console.warn(position);
 				
         this.setState({
 					gloc: position

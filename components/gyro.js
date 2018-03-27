@@ -22,7 +22,7 @@ let watchId = navigator.geolocation.watchPosition(
 		// console.warn(position);
 		
 		speed = Math.round(position.coords.speed*3.6)
-		console.warn(speed);
+		// console.warn(speed);
 		
 	},
 	(error) => {console.warn(error)},
