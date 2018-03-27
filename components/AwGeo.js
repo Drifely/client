@@ -58,6 +58,7 @@ class awGeo extends Component {
         this.setState({
 					gloc: position
         });
+				this.reverseGeo(position.coords.latitude, position.coords.longitude)
       },
       (error) => this.setState({ error: error.message }),
       { enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 1 },

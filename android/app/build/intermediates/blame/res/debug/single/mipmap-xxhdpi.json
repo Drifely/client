@@ -2,5 +2,9 @@
     {
         "merged": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }
 ]

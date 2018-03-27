@@ -92,7 +92,7 @@ class SignUp extends Component {
 		console.log('siap', e)
 		const edit = {
 			...this.props.form,
-			Econtact: e
+			email: e
 		}
 		console.log('ini edit', edit)
 		this.props.editSignup(edit)
@@ -102,7 +102,7 @@ class SignUp extends Component {
 		console.log('siap', e)
 		const edit = {
 			...this.props.form,
-			Pcontact: e
+			contact: e
 		}
 		console.log('ini edit', edit)
 		this.props.editSignup(edit)
@@ -120,8 +120,8 @@ class SignUp extends Component {
 			&& this.props.form.gender 
 			&& this.props.form.pob 
 			&& this.props.form.dob 
-			&& this.props.form.Econtact 
-			&& this.props.form.Econtact) {
+			&& this.props.form.contact 
+			&& this.props.form.email) {
 				// console.warn('ini masuk cuy ke sini lau udah boleh sign up')
 				this.props.registerAction(this.props.form, this.props.navigation)
 			} else {
@@ -169,11 +169,11 @@ class SignUp extends Component {
 							</Item>
 							<Item>
 								<Icon active name='phone-in-talk' type='MaterialIcons' />
-								<Input onChangeText={(text)=> this.changeContact(text)} name="dob" value={this.props.form.Pcontact} style={{fontSize: 10}} placeholder="Emergency Phone Contact"/>
+								<Input onChangeText={(text)=> this.changeContact(text)} name="contact" value={this.props.form.contact} style={{fontSize: 10}} placeholder="Emergency Phone Contact"/>
 							</Item>
 							<Item>
 								<Icon active name='email' type='MaterialIcons' />
-								<Input onChangeText={(text)=> this.ChangeEmail(text)} name="dob" value={this.props.form.Econtact} style={{fontSize: 10}} placeholder="Emergency Email Contact"/>
+								<Input onChangeText={(text)=> this.ChangeEmail(text)} name="email" value={this.props.form.email} style={{fontSize: 10}} placeholder="Emergency Email Contact"/>
 							</Item>
 							<Left style={{marginTop: 10, marginBottom: 10}}> 
 							<Button success bordered onPress={()=>this.register()}><Text> Sign Up </Text></Button>

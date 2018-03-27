@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { Linking, StyleSheet, AsyncStorage, Image } from 'react-native'
+import { Linking, StyleSheet, AsyncStorage, Image, Alert } from 'react-native'
 import { Container, Body, Right,Title, Header, Icon, Content, Footer, FooterTab, Button, Text, View, Left } from 'native-base';
 import BgGeo from './BackgroundGeo'
 import AwGeo from './AwGeo'
@@ -19,21 +19,20 @@ class Primary extends Component {
     }
   }
   
-  sendSMS = (data) => {
-    const reqBody = {
-      api_key : '1ba88109',
-      api_secret : '6gxuZl4lPvowscIZ',
-      to : '6287877280598',
-      from: 'Drifely',
-      text: 'ati2 bang....pelan2 aja.....'
-    }
-    axios.post('https://rest.nexmo.com/sms/json', reqBody)
-    .then(response => {
-      console.warn(response.data);
-    })
-    .catch(err => {
-      console.warn(err);
-    })
+    sendSMS = () => {
+      AsyncStorage.getItem('token')
+      .then(value => {
+        axios.get('http://drifely-s.wizawt.com/users/emergency', {headers: {token:value}})
+        .then(result => {
+          if (result) {
+            Alert.alert('Help is on the way')
+          } 
+          else {
+            console.warn(result);
+            console.warn('matiajalo');
+          }
+        })
+      })
   }
   warnLocation = () => {
     navigator.geolocation.getCurrentPosition((position) => {
@@ -57,6 +56,10 @@ class Primary extends Component {
     AsyncStorage.removeItem('token')
     this.props.navigation.navigate('Welcome')
   }
+  
+  emergency = () => {
+    this.sendSMS()
+  }
   render() {
     return (
       <Container>
@@ -65,7 +68,8 @@ class Primary extends Component {
         {/* <Content /> */}
         <Footer>
           <FooterTab>
-            <Button vertical>
+            <Button vertical
+              onPress = {this.emergency}>
               <Icon active name="warning" />
               <Text>Emergency</Text>
             </Button>

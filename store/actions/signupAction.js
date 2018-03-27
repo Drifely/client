@@ -36,13 +36,20 @@ function register() {
 export function registerAction (form,navigation) {
 	return dispatch => {
 		dispatch(singupLoading())
-		console.log('ini form na', form)
+		console.warn('ini form na', form)
 		axios.post('http://drifely-s.wizawt.com/users/reg', {
 			...form
 		}).then(response => {
 			dispatch(invalidSim())
-			navigation.navigate('Tutorial')
-			AsyncStorage.setItem('token', '12345')
+			AsyncStorage.setItem('token',response.data.jwt)
+			.then(respon => {
+				console.warn('ini masuk async response', respon);
+				navigation.navigate('Tutorial')
+			})
+			.catch(err => {
+				console.warn(err);
+			})
+			
 		})
 		.catch(err => {console.log(err)})
 	}
@@ -83,13 +90,15 @@ export function actionSignup (navigation) {
 								navigation.navigate('Form')
 								
 							} else if (response.data.exist) {
-								dispatch(invalidSim())
-								navigation.navigate('Tutorial')
-								AsyncStorage.setItem('token','12345')
+								AsyncStorage.setItem('token',response.data.jwt)
+								.then(x => {
+									navigation.navigate('Tutorial')									
+								}
+								)
 
 							}
 								else if (!response.data.sim) {
-								console.log('sim invalid', response.data.sim)
+								console.warn('sim invalid', response.data.sim)
 								dispatch(invalidSim())
 								navigation.navigate('Invalid')
 							} 

@@ -43,6 +43,7 @@ function SensorView(props) {
 function warning(z, speed){
 	if(speed >= 10) {
 		Alert.alert('WARNING')
+		this.sendSMS()
 		console.warn('ini si z', z);
 		console.warn('ini speed', speed);
 	}
@@ -53,15 +54,18 @@ function warning(z, speed){
 }
 
 sendSMS = () => {
-	const token = AsyncStorage.getItem('token')
-	console.warn(token);
-	axios.post('http://localhost:3000/users/emergency', {headers: {token: token}})
-	.then(response => {
-		response.data.status ? console.warn('SMS sent') : console.warn('gagal');
+	AsyncStorage.getItem('token')
+	.then(value => {
+		console.warn(value);
+		axios.post('http://localhost:3000/users/emergency', {headers: {token: value}})
+		.then(response => {
+			response.data.sent ? console.warn('SMS sent') : console.warn('gagal');
+		})
+		.catch(err => {
+			console.warn(err);
+		})
 	})
-	.catch(err => {
-		console.warn(err);
-	})
+
 }
 
 let zNow = 0 
