@@ -3,6 +3,7 @@ import {bindActionCreators} from 'redux'
 import { connect } from 'react-redux'
 import {StyleSheet, Image} from 'react-native'
 import { editSignup, registerAction} from '../store/actions/signupAction'
+import AwesomeAlert from 'react-native-awesome-alerts';
 import { 
 	Container,
 	Label,
@@ -19,6 +20,11 @@ import {
 	View} from 'native-base'
 
 class SignUp extends Component {
+	constructor (props) {
+		super(props);
+    this.state = { showAlert: false }
+  	}
+	
 	componentDidMount(){
 		console.log('masuk sini', this.props)
 	}
@@ -101,7 +107,11 @@ class SignUp extends Component {
 		console.log('ini edit', edit)
 		this.props.editSignup(edit)
 	}
-
+		hideAlert = () => {
+	    this.setState({
+	      showAlert: false
+	    });
+	  }
 	register = () => {
 		if(
 			this.props.form.simNum 
@@ -115,7 +125,9 @@ class SignUp extends Component {
 				// console.warn('ini masuk cuy ke sini lau udah boleh sign up')
 				this.props.registerAction(this.props.form, this.props.navigation)
 			} else {
-				console.warn('salah cuy kurang neh')
+				this.setState({
+		      showAlert: true
+		    });
 			}
 	} 
 	render() {
@@ -168,6 +180,20 @@ class SignUp extends Component {
 							</Left>
 						</Form>
 					</Content>
+					<AwesomeAlert
+						 show={this.state.showAlert}
+						 showProgress={false}
+						 title="Register Error !"
+						 message="Please fill all required fields"
+						 closeOnTouchOutside={true}
+						 closeOnHardwareBackPress={false}
+						 showConfirmButton={true}
+						 confirmText="Oke!"
+						 confirmButtonColor="#DD6B55"
+						 onConfirmPressed={() => {
+							 this.hideAlert();
+				 }}
+			 />
 				</Container>
 			);
 		}
