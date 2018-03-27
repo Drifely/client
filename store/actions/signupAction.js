@@ -41,8 +41,12 @@ export function registerAction (form,navigation) {
 			...form
 		}).then(response => {
 			dispatch(invalidSim())
-			navigation.navigate('Tutorial')
-			AsyncStorage.setItem('token', '12345')
+			// console.warn(response)
+			// dispatch(bioData(response))
+			console.warn(response.data);
+			AsyncStorage.setItem('token', response.data.jwt)
+			navigation.navigate('Primary')
+			
 		})
 		.catch(err => {console.log(err)})
 	}
@@ -74,22 +78,22 @@ export function actionSignup (navigation) {
 					const formData = new FormData()
 					formData.append('image', img)
 					console.log('ini form data', formData)
-					axios.post('http://drifely-s.wizawt.com/users/simbio', formData, config)
+					axios.post('http://drifely-s.wizawt.com/users/simBio', formData, config)
 						.then(response => {
 							console.log(response.data,'ini response')
-							if (!response.data.exist && response.data.sim) {
+							if (!response.data.vision.exist && response.data.vision.sim) {
 								console.log(response.data.sim,'ini regis')
-								dispatch(signupLoaded(response.data))
+								dispatch(signupLoaded(response.data.vision))
 								navigation.navigate('Form')
 								
 							} else if (response.data.exist) {
-								dispatch(invalidSim())
+								// dispatch(invalidSim())
 								navigation.navigate('Tutorial')
 								AsyncStorage.setItem('token','12345')
 
 							}
-								else if (!response.data.sim) {
-								console.log('sim invalid', response.data.sim)
+								else if (!response.data.vision.sim) {
+								console.warn('sim invalid', response.data)
 								dispatch(invalidSim())
 								navigation.navigate('Invalid')
 							} 

@@ -12,7 +12,7 @@ class  Welcome extends Component {
     AsyncStorage.getItem('token')
       .then(data => {
         if (data) {
-          this.props.navigation.navigate('Tutorial')
+          this.props.navigation.navigate('Primary')
         }
       })
   }

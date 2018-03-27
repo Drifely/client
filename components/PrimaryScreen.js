@@ -20,6 +20,7 @@ class Primary extends Component {
   }
   
   sendSMS = (data) => {
+    const token = AsyncStorage.getItem('token')
     const reqBody = {
       api_key : '1ba88109',
       api_secret : '6gxuZl4lPvowscIZ',
@@ -57,6 +58,10 @@ class Primary extends Component {
     AsyncStorage.removeItem('token')
     this.props.navigation.navigate('Welcome')
   }
+  
+  emergency = () => {
+    this.sendSMS()
+  }
   render() {
     return (
       <Container>
@@ -65,7 +70,8 @@ class Primary extends Component {
         {/* <Content /> */}
         <Footer>
           <FooterTab>
-            <Button vertical>
+            <Button vertical
+              onPress = {this.emergency}>
               <Icon active name="warning" />
               <Text>Emergency</Text>
             </Button>

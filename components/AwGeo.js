@@ -58,6 +58,7 @@ class awGeo extends Component {
         this.setState({
 					gloc: position
         });
+				this.reverseGeo(position.coords.latitude, position.coords.longitude)
       },
       (error) => this.setState({ error: error.message }),
       { enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 1 },
@@ -97,7 +98,12 @@ class awGeo extends Component {
 				
 				<View style={styles.containerSpeed}>
 					{/* <Text>{JSON.stringify(this.state.gloc)}</Text> */}
+					
+					<Text
+						style={{fontWeight: 'bold'}}>Current Location</Text>
+					<Left>
 					<Text>{JSON.stringify(this.state.currentLocation)}</Text>
+					</Left>
 					<View style={{ flex: 1, flexDirection: 'row',alignItems:'flex-end'}}> 
 				  
 					<Icon

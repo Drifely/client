@@ -7,22 +7,11 @@ import Logo from './Logo'
 
 const cards = [
   {
-    text: 'WELCOME TO DRIVELY!',
-    name: 'One',
-    image: require('../images/pwa-lighthouse.png'),
-    next: false,
-  },  {
-      text: 'Steering Wheel and Calibrate',
-      name: 'Before you can use this app, you must calibrate this device to your steering wheel ',
-      image: require('../images/pwa-engaging.png'),
-      next: false
-    },
-    {
-      text: 'Swipe to start using this App',
-      name: 'Enter',
-      image: require('../images/pwa-reliable.png'),
-      next: true
-    }
+    text: 'WELCOME',
+    name: '',
+    image: require('../assets/logo.png'),
+    next: true,
+  }
 ];
 
 class Welcome extends Component {
@@ -40,15 +29,15 @@ class Welcome extends Component {
            <DeckSwiper
              dataSource={cards}
              renderItem={item =>
-               <Card style={{ backgroundColor: '#494E6B' }}>
-                 <CardItem cardBody style={{ backgroundColor: '#494E6B' }}>
-                   <Image style={{ height: 400, flex: 1 }} source={item.image} />
+               <Card style={{ backgroundColor: '#EAEAEA', padding:10 }}>
+                 <CardItem cardBody style={{ backgroundColor: '#EAEAEA', padding:10  }}>
+                   <Image size={30} style={{ height: 400, flex: 1, width:250 }} source={item.image} />
                  </CardItem>
-                 <CardItem cardBody style={{ backgroundColor: '#494E6B' }}>
-                   <View style={{ height: 300, flex: 1, backgroundColor: '#494E6B', justifyContent:'center', alignItems:'center' }}>
+                 <CardItem cardBody style={{ backgroundColor: '#EAEAEA' }}>
+                   <View style={{ height: 300, flex: 1, backgroundColor: '#EAEAEA', justifyContent:'center', alignItems:'center' }}>
                      <Left>
-                     <Text style={{ color: 'white' }}>{item.text}</Text>
-                     <Logo></Logo>
+                     <Text style={{ color: '#334C8E' }}>{item.text}</Text>
+                     <Text style={{ color: '#334C8E' }}>{item.name}</Text>
                      {item.next ? <Button success bordered onPress = { () => {this.goToMainScreen()}}><Text> Let's Ride </Text></Button> : null}
                    </Left>
                    </View>
