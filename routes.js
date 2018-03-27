@@ -29,6 +29,7 @@ export const HomeStack = StackNavigator ({
 },
 {
   headerMode: 'none',
+  initialRouteName: 'Form',
   navigationOptions: {
     headerVisible: false
   }

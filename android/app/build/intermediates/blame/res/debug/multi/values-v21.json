@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+        "outputFile": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 154
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 218
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 285
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 349
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 440
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 543
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 646
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 751
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 858
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 967
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1076
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1185
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1294
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1403
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1510
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1613
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 1732
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -335,7 +335,7 @@
                     "endOffset": 1887
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -356,7 +356,7 @@
                     "endOffset": 2042
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -376,7 +376,7 @@
                     "endOffset": 2147
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -395,7 +395,7 @@
                     "endOffset": 2268
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -414,7 +414,7 @@
                     "endOffset": 2369
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -434,7 +434,7 @@
                     "endOffset": 2516
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -455,7 +455,7 @@
                     "endOffset": 2657
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -475,7 +475,7 @@
                     "endOffset": 2760
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -494,7 +494,7 @@
                     "endOffset": 2879
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -513,7 +513,7 @@
                     "endOffset": 2986
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -532,7 +532,7 @@
                     "endOffset": 3089
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -552,7 +552,7 @@
                     "endOffset": 3244
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -573,7 +573,7 @@
                     "endOffset": 3415
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -594,7 +594,7 @@
                     "endOffset": 3564
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -615,7 +615,7 @@
                     "endOffset": 3729
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -636,7 +636,7 @@
                     "endOffset": 3886
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 4037
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -677,7 +677,7 @@
                     "endOffset": 4156
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -697,7 +697,7 @@
                     "endOffset": 4305
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -718,7 +718,7 @@
                     "endOffset": 4454
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -738,7 +738,7 @@
                     "endOffset": 4566
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -757,7 +757,7 @@
                     "endOffset": 4713
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -777,7 +777,7 @@
                     "endOffset": 4866
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -798,7 +798,7 @@
                     "endOffset": 5013
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 51,
                         "startColumn": 4,
@@ -818,7 +818,7 @@
                     "endOffset": 5088
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -837,7 +837,7 @@
                     "endOffset": 5177
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -856,7 +856,7 @@
                     "endOffset": 5264
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 55,
                         "startColumn": 4,
@@ -875,7 +875,7 @@
                     "endOffset": 5365
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -895,7 +895,7 @@
                     "endOffset": 8433
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 57,
                         "startColumn": 4,
@@ -916,7 +916,7 @@
                     "endOffset": 8619
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 101,
                         "startColumn": 4,
@@ -937,7 +937,7 @@
                     "endOffset": 11699
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 104,
                         "startColumn": 4,
@@ -958,7 +958,7 @@
                     "endOffset": 11897
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 148,
                         "startColumn": 4,
@@ -979,7 +979,7 @@
                     "endOffset": 12020
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 151,
                         "startColumn": 4,
@@ -1000,7 +1000,7 @@
                     "endOffset": 12143
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 153,
                         "startColumn": 4,
@@ -1021,7 +1021,7 @@
                     "endOffset": 12256
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 155,
                         "startColumn": 4,
@@ -1042,7 +1042,7 @@
                     "endOffset": 12439
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 157,
                         "startColumn": 4,
@@ -1063,7 +1063,7 @@
                     "endOffset": 12570
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 160,
                         "startColumn": 4,
@@ -1084,7 +1084,7 @@
                     "endOffset": 12771
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 162,
                         "startColumn": 4,
@@ -1104,7 +1104,7 @@
                     "endOffset": 12860
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 165,
                         "startColumn": 4,
@@ -1123,7 +1123,7 @@
                     "endOffset": 12971
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 166,
                         "startColumn": 4,
@@ -1142,7 +1142,7 @@
                     "endOffset": 13098
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 167,
                         "startColumn": 4,
@@ -1161,7 +1161,7 @@
                     "endOffset": 13199
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 168,
                         "startColumn": 4,
@@ -1180,7 +1180,7 @@
                     "endOffset": 13294
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 169,
                         "startColumn": 4,
@@ -1199,7 +1199,7 @@
                     "endOffset": 13417
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 170,
                         "startColumn": 4,
@@ -1218,7 +1218,7 @@
                     "endOffset": 13546
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 171,
                         "startColumn": 4,
@@ -1237,7 +1237,7 @@
                     "endOffset": 13663
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 172,
                         "startColumn": 4,
@@ -1257,7 +1257,7 @@
                     "endOffset": 13840
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 173,
                         "startColumn": 4,
@@ -1277,7 +1277,7 @@
                     "endOffset": 13939
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 176,
                         "startColumn": 4,
@@ -1297,7 +1297,7 @@
                     "endOffset": 14074
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 177,
                         "startColumn": 4,
@@ -1318,7 +1318,7 @@
                     "endOffset": 14217
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 179,
                         "startColumn": 4,
@@ -1339,7 +1339,7 @@
                     "endOffset": 14352
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 181,
                         "startColumn": 4,
@@ -1360,7 +1360,7 @@
                     "endOffset": 14471
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 183,
                         "startColumn": 4,
@@ -1381,7 +1381,7 @@
                     "endOffset": 14672
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 185,
                         "startColumn": 4,
@@ -1402,7 +1402,7 @@
                     "endOffset": 14791
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 189,
                         "startColumn": 4,
@@ -1422,7 +1422,7 @@
                     "endOffset": 14884
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 191,
                         "startColumn": 4,
@@ -1441,7 +1441,7 @@
                     "endOffset": 14995
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 192,
                         "startColumn": 4,
@@ -1460,7 +1460,7 @@
                     "endOffset": 15051
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 193,
                         "startColumn": 4,
@@ -1480,7 +1480,7 @@
                     "endOffset": 15158
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 194,
                         "startColumn": 4,
@@ -1501,7 +1501,7 @@
                     "endOffset": 15353
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 196,
                         "startColumn": 4,
@@ -1522,7 +1522,7 @@
                     "endOffset": 15464
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 200,
                         "startColumn": 4,
@@ -1543,7 +1543,7 @@
                     "endOffset": 15597
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 202,
                         "startColumn": 4,
@@ -1563,7 +1563,7 @@
                     "endOffset": 15692
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 204,
                         "startColumn": 4,
@@ -1582,7 +1582,7 @@
                     "endOffset": 15783
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 205,
                         "startColumn": 4,
@@ -1601,7 +1601,7 @@
                     "endOffset": 15874
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 206,
                         "startColumn": 4,
@@ -1620,7 +1620,7 @@
                     "endOffset": 15991
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 207,
                         "startColumn": 4,
@@ -1640,7 +1640,7 @@
                     "endOffset": 16130
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 208,
                         "startColumn": 4,
@@ -1661,7 +1661,7 @@
                     "endOffset": 16643
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 210,
                         "startColumn": 4,
@@ -1682,7 +1682,7 @@
                     "endOffset": 17168
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 220,
                         "startColumn": 4,
@@ -1703,7 +1703,7 @@
                     "endOffset": 17848
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 230,
                         "startColumn": 4,
@@ -1723,7 +1723,7 @@
                     "endOffset": 17905
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 240,
                         "startColumn": 4,
@@ -1742,7 +1742,7 @@
                     "endOffset": 17963
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 241,
                         "startColumn": 4,
@@ -1761,7 +1761,7 @@
                     "endOffset": 18079
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1780,7 +1780,7 @@
                     "endOffset": 18205
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1800,7 +1800,7 @@
                     "endOffset": 18373
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1821,7 +1821,7 @@
                     "endOffset": 18536
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1841,7 +1841,7 @@
                     "endOffset": 18662
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1861,7 +1861,7 @@
                     "endOffset": 18830
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1881,7 +1881,7 @@
                     "endOffset": 18958
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1901,7 +1901,7 @@
                     "endOffset": 19125
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1922,7 +1922,7 @@
                     "endOffset": 19297
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1943,7 +1943,7 @@
                     "endOffset": 19635
                 },
                 "from": {
-                    "file": "/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
+                    "file": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/values-v21/values-v21.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,

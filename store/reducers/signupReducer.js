@@ -7,6 +7,8 @@ let signup = {
 		pob: '',
 		dob: '',
 		simNum: '',
+		Econtact: '',
+		Pcontact: ''
 	},
 	sim: false
 }

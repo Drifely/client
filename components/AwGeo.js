@@ -2,7 +2,11 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import MapView, { Marker } from 'react-native-maps'
-import { Container, Icon } from 'native-base'
+import { Container, Icon, Left } from 'native-base'
+import { connect } from 'react-redux'
+import { SET_LOCATION } from '../store/actions/locatorAction'
+import { bindActionCreators } from 'redux'
+import axios from 'axios'
 
 // create a component
 class awGeo extends Component {
@@ -13,14 +17,34 @@ class awGeo extends Component {
 			gloc : {coords: {speed: 0}}
 		}
 	}
+	
+	reverseGeo = (lat, long) => {
+		console.warn(lat, long);
+		let latString = lat.toString()
+		let longString = long.toString()
+		axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=AIzaSyBaiRZ-wS1HHnEWYrYRoSTJgD0HZxTK4Lg`)
+		  .then(response => {
+				console.warn(response.data.results[0].formatted_address);
+				this.setState(prev => ({
+					...prev,
+					currentLocation: response.data.results[0].formatted_address
+				}))
+			})
+			.catch(err => {
+				console.warn('masuk err ', err);
+			})
+	}
 
 	componentDidMount = () => {
 		console.log('ini jalan??')
 		navigator.geolocation.getCurrentPosition((position) => {
+			// this.props.SET_LOCATION(position.coords.speed)
 			this.setState({
 				gloc: position
 			})
+			this.reverseGeo(position.coords.latitude, position.coords.longitude)
 		})
+		
 		let options ={
 			distanceFilter: 2,
 			maximumAge: 3000
@@ -28,6 +52,9 @@ class awGeo extends Component {
 		console.log(this.state.gloc)
 		this.watchId = navigator.geolocation.watchPosition(
       (position) => {
+				// this.props.SET_LOCATION(position.coords.speed)
+				// console.warn(position);
+				
         this.setState({
 					gloc: position
         });
@@ -62,14 +89,17 @@ class awGeo extends Component {
 						<Marker
 							coordinate= {{latitude: this.state.gloc.coords.latitude || 37.7883, longitude: this.state.gloc.coords.longitude || -122.4324}}
 							title= "Test"
-							description= "Current Position" 
+							description= "Current Position"
+							image={require('../assets/truckMarker.png')} 
 							/>
 				</MapView>
 			</View>
-	
+				
 				<View style={styles.containerSpeed}>
 					{/* <Text>{JSON.stringify(this.state.gloc)}</Text> */}
+					<Text>{JSON.stringify(this.state.currentLocation)}</Text>
 					<View style={{ flex: 1, flexDirection: 'row',alignItems:'flex-end'}}> 
+				  
 					<Icon
 						size={100}
 						style= {{padding: 5}}
@@ -92,6 +122,8 @@ class awGeo extends Component {
 const styles = StyleSheet.create({
 	containerSpeed: {
 		flex: 1,
+		alignItems: 'center',
+		justifyContent: 'center'
 		// justifyContent: 'flex-end',
 		// backgroundColor: 'red',
 		// alignItems: 'flex-start',
@@ -108,9 +140,9 @@ const styles = StyleSheet.create({
 	},
 });
 
-// const mapDispatchToProps = dispatch => bindActionCreators({
-//   SET_LOCATION
-// },dispatch)
+const mapDispatchToProps = dispatch => bindActionCreators({
+  SET_LOCATION
+},dispatch)
 
 //make this component available to the app
-export default awGeo;
+export default connect(null, mapDispatchToProps)(awGeo);

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { Linking, StyleSheet, AsyncStorage } from 'react-native'
-import { Container, Header, Icon, Content, Footer, FooterTab, Button, Text, View, Left } from 'native-base';
+import { Linking, StyleSheet, AsyncStorage, Image } from 'react-native'
+import { Container, Body, Right,Title, Header, Icon, Content, Footer, FooterTab, Button, Text, View, Left } from 'native-base';
 import BgGeo from './BackgroundGeo'
 import AwGeo from './AwGeo'
 import Gyro from './gyro'
@@ -60,9 +60,7 @@ class Primary extends Component {
   render() {
     return (
       <Container>
-        <Header>
-        </Header>
-          {/* <Gyro/> */}
+        <Image source={require('../assets/logo.png')} style={{width:'auto',height:200}}></Image>
           <AwGeo />
         {/* <Content /> */}
         <Footer>
