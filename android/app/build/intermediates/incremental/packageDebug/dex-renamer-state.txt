@@ -1,9 +1,4 @@
-<<<<<<< fd9e54dcd902ff5c80ce73e770278dcb385ccbe6
-#Mon Mar 26 20:19:52 WIB 2018
-base.0=/media/abdillahh/DAEAC85BEAC83613/hacktiv8/phase 3/week 3/final project/senin/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-=======
-#Mon Mar 26 18:53:01 WIB 2018
+#Tue Mar 27 11:00:17 WIB 2018
 base.0=/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
->>>>>>> yogrez
 renamed.0=classes.dex
 file.0=/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
