@@ -4,7 +4,8 @@ import {
 	Text,
 	View,
 	Alert,
-	Button
+	Button,
+	AsyncStorage
 } from 'react-native';
 import RNSensors, { Gyroscope } from 'react-native-sensors';
 import axios from 'axios'
