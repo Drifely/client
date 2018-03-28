@@ -65,6 +65,7 @@ class Primary extends Component {
       <Container>
         <Image source={require('../assets/logo.png')} style={{width:'auto',height:200}}></Image>
           <AwGeo />
+          <Gyro />
         {/* <Content /> */}
         <Footer>
           <FooterTab>

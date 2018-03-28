@@ -44,8 +44,8 @@ function warning(z, speed){
 	if(speed >= 10) {
 		Alert.alert('WARNING')
 		this.sendSMS()
-		console.warn('ini si z', z);
-		console.warn('ini speed', speed);
+		// console.warn('ini si z', z);
+		// console.warn('ini speed', speed);
 	}
 
 	
@@ -56,7 +56,7 @@ function warning(z, speed){
 sendSMS = () => {
 	AsyncStorage.getItem('token')
 	.then(value => {
-		console.warn(value);
+		// console.warn(value);
 		axios.post('http://localhost:3000/users/emergency', {headers: {token: value}})
 		.then(response => {
 			response.data.sent ? console.warn('SMS sent') : console.warn('gagal');

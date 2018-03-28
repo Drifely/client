@@ -6,5 +6,9 @@
     {
         "merged": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
         "source": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v16/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/layout-v16/notification_template_custom_big.xml",
+        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v16/notification_template_custom_big.xml"
     }
 ]
