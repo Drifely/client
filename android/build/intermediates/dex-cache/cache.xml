@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.github.tony19/apktool-lib/1.4.4-3/1d0125bf578cb30dd192496db56c2d937495248a/apktool-lib-1.4.4-3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1d0125bf578cb30dd192496db56c2d937495248a">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/apktool-lib-1.4.4-3_eb9f40b6b6f9e33bd71606a17028be4902cfe635.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.adobe.xmp/xmpcore/5.1.2/55615fa2582424e38705487d1d3969af8554f637/xmpcore-5.1.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="55615fa2582424e38705487d1d3969af8554f637">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/xmpcore-5.1.2_ec4564e15782a8c4c19db76285feff8ac88bb1ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_7fac78908b793556b1d4a24be4177fc3446f516a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_75e0c21845e3ee52096c4654e2d1c577b980501f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="139535a69a4239db087de9bab0bee568bf8e0b70">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/slf4j-api-1.7.21_eea456e245a722153be25a8d58bc9007df9a7877.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="233d88c6f961d2a84758dfe27b7af61318190c7b">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-11.8.0_b37213be39afcc32b4768f59bbb1ce43a6d46e21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_a90f87567c68e30dd4faa024783bd66b0090804d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="99941aaaf86dc5e525cd9208c2f7c9a624f4f004">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.51.0_692954653a5d7ea39ba6cab211b33a6d56ba6c31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.github.react-native-community/cameraview/d529251d24c0a367a28eea28f0eac2269d12f772/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e64d3bd4020c2600a42923c3b493bbb2e81f1211">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.github.react-native-community-cameraview-d529251d24c0a367a28eea28f0eac2269d12f772_27650965ab95531b004e9c559a74555f980a3fa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-maps/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ca12a06449df0bbfdffdcf8eb990a7d2c09df08e">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/letsGo-react-native-maps-unspecified_a0112971c3169761ff742b005a53f429b93905a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d2af2ef4d987d753f2e8ee2d1480ab964d5c7273">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-11.8.0_20d1b4600daec2d03b417058f2213d9851fcb9a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-sensors/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c831db2220e58fd0730e002bdee6052edb368a7b">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/letsGo-react-native-sensors-unspecified_1d76c77abcc223e83fba7880db36892790841269.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.intentfilter/android-permissions/0.1.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d017be0e8d084dbf49feb46382b972f390fcab74">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.intentfilter-android-permissions-0.1.6_08ef0d5599a09d78e91af9248a22b49bd62cd6df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ecd0a96f6bda796eeffafb066a93c84163b72234">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-11.8.0_8ccfcb6ec37ef2e69f937fdd75257b1355228057.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_05b3d47e1d0804caf410a63235a19e82117308d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-classic/1.1.1-6/614c66c9ece69eef48c65a8558de4fd7266d9f69/logback-android-classic-1.1.1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="614c66c9ece69eef48c65a8558de4fd7266d9f69">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/logback-android-classic-1.1.1-6_df4bff1cc8f87a0113ac5fe8efddc91eb8c31c15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_279667c79f8c3f19aedfcc99f7f74fee57b4d530.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_742014a63456f3c054f07c8b6dc02c43d97e308e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dff4d8f88fe2c0e57306e6981fd9b90caeead7e3">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-26.0.1_94d9d3ebf6d8b56475960539f5420c6853189240.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.3.0_ed8c5179e6ceb178eafa1b3e2838aef5331c3b03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d095503f29a8dedc55b9326ed97a5902a1527ab9">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-26.0.1_e7ea1b5e6238a9dddca677a386f4fa5e7f942874.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.drewnoakes/metadata-extractor/2.9.1/53fdf22be10c9d426ec63431c7342895bc642261/metadata-extractor-2.9.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="53fdf22be10c9d426ec63431c7342895bc642261">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/metadata-extractor-2.9.1_e49e9476a62c796556841cc89b194182fdae59af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="601ebd8fa027a3dad924ffa1cb14689ced5aa436">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-11.8.0_b477956421fb223ee4569e749121b1edfabe3ad1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_dcde7e9eb250c94901a0f444386d4c45b8ecbbac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.3.0_ac9ca267012550a87a119496030a4bfd9e580695.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_8b3eba1db84c4367b757e1f13a0cfb032dfca9fc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-smart-splashscreen/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="91d127c17ba43d1033ab1f828d1e57fd474957ea">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/letsGo-react-native-smart-splashscreen-unspecified_202c884be329afac0914cc591064c14f171a5887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_95b9521b9c208a552bc42264d9c9c916f6f88415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_65b1a7f2f4b42100ed6a3388636a312ebb0e65c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f0f484b1a18c1676984dfea4e572ceffda2f3b78">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-11.8.0_09ac0202383526fd5f479329524d8286d097c49e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a4590fa7eadce322ca893129fdc999074e1aa5bf">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-26.0.1_12fb9b0a6c64b009aff722b2284666842bea05f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision-common/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cf42968b00f665dae552206e33705877b949b333">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-common-11.8.0_b4036b86da454008a9c57e2053d39fe6dbef6da0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-26.0.1_a37ac12c0bd5cdb1dfb604a163fb346f77d9d7ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_838b573242994e11b7c116b20a07e2f4f7b7b59a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_1c19ce37b65a2eb208b70998121080759b246d7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_c868c10bb871d7c8669573e629106cb4cf8b6186.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/11.8.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5ad3911825107d8dd4b017fdecebfd23c08048dd">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-11.8.0_87e8756bb65f2f13e27a9b992164cea48358d43d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_72917daced2af29a2d2ab21a48a6137918d827b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/exifinterface/28.0.0-alpha1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="76de56b9d548911f48a6b2684adbbb8d46fdd0ce">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-exifinterface-28.0.0-alpha1_ccaa8cd238e5871b0e445c01ce5445d1e527223a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-image-resizer/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c4f7f0008cfd094740830ae2c174caec8a2ca79a">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/letsGo-react-native-image-resizer-unspecified_355bc79aad2bd02b9c94d9fb854b2829b3f32be4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-camera/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ea50d474a98ae28626fea767dbb7484ced3f0b6e">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/letsGo-react-native-camera-unspecified_18b2a000d92275a8b5c586b922ed5751f846f887.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="71af915b7f4f7ec0b5f768b365145bb6a5cb9a66">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-26.0.1_31bc696c3109d39c457ddfe1e947d58770d850b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.github.tony19/logback-android-core/1.1.1-6/93117015ae639e6482e4e1ad5f988c3f61d09fe0/logback-android-core-1.1.1-6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="93117015ae639e6482e4e1ad5f988c3f61d09fe0">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/logback-android-core-1.1.1-6_7efbab66e16f257f65223a2582a350b00db6d510.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0-alpha1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-28.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/support-annotations-28.0.0-alpha1_d9b42106c5c18dc4a1c5ed322d45fec451140671.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_22626958a12df0920b98321224b718ce1190a1d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.51.0/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_f537ea43b186c21a849ccc5fc2e8ae87cebc6a3b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_13a04f62f855aa0c366210c4c309ea56c58ea406.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_2467fc073ced92f1c561dc8ba72ba3c1770caebb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/letsGo/react-native-mauron85-background-geolocation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5e9590a4578b2efe4620ee7636f3f8fddcb9c917">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/letsGo-react-native-mauron85-background-geolocation-unspecified_020373e4c101c74560e9f3be27f6abad6f58d2ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="22c673e65215e0764add61e3102946de895439e4">
+        <dex dex="/Users/awtian/FINAL/client/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-26.0.1_5c9c16042e51e08a12e0faf4664155a24609b615.jar" />
+    </item>
+
+</items>

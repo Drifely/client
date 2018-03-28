@@ -1,0 +1,16 @@
+rootProject.name = 'letsGo'
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/lib/android')
+include ':react-native-image-resizer'
+project(':react-native-image-resizer').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-resizer/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+include ':react-native-mauron85-background-geolocation'
+project(':react-native-mauron85-background-geolocation').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mauron85-background-geolocation/android/lib')
+include ':react-native-sensors'
+project(':react-native-sensors').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sensors/android')
+include ':app'
+include ':react-native-smart-splashscreen'
+project(':react-native-smart-splashscreen').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-smart-splash-screen/android')
+include ':react-native-maps'
+project(':react-native-maps').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-maps/lib/android')
