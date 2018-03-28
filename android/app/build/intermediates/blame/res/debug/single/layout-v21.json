@@ -1,5 +1,13 @@
 [
     {
+        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_action.xml"
+    },
+    {
         "merged": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_template_custom_big.xml"
     },
@@ -8,11 +16,35 @@
         "source": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_action_tombstone.xml"
     },
     {
+        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/awtian/FINAL/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/awtian/FINAL/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
         "merged": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
         "source": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_action.xml"
     },
     {
         "merged": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/home/angga/Desktop/Hacktiv8/FINALclient/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/angga/Desktop/Hacktiv8/clientbaru/client/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.1/res/layout-v21/notification_template_custom_big.xml"
     }
 ]

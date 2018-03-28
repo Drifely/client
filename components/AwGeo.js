@@ -19,12 +19,12 @@ class awGeo extends Component {
 	}
 	
 	reverseGeo = (lat, long) => {
-		console.warn(lat, long);
+		// console.warn(lat, long);
 		let latString = lat.toString()
 		let longString = long.toString()
 		axios.get(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${lat},${long}&key=AIzaSyBaiRZ-wS1HHnEWYrYRoSTJgD0HZxTK4Lg`)
 		  .then(response => {
-				console.warn(response.data.results[0].formatted_address);
+				// console.warn(response.data.results[0].formatted_address);
 				this.setState(prev => ({
 					...prev,
 					currentLocation: response.data.results[0].formatted_address
@@ -58,6 +58,7 @@ class awGeo extends Component {
         this.setState({
 					gloc: position
         });
+				this.reverseGeo(position.coords.latitude, position.coords.longitude)
       },
       (error) => this.setState({ error: error.message }),
       { enableHighAccuracy: true, timeout: 1000, maximumAge: 1000, distanceFilter: 1 },
